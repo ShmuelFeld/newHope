@@ -24,6 +24,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o"
   "CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o"
   "CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o"
+  "CMakeFiles/newHope.dir/Udp.cpp.o"
+  "CMakeFiles/newHope.dir/Socket.cpp.o"
   "newHope.pdb"
   "newHope"
 )

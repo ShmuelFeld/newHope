@@ -394,6 +394,12 @@
 		<Unit filename="/home/shmuel/ClionProjects/newHope/Point.h">
 			<Option target="newHope"/>
 		</Unit>
+		<Unit filename="/home/shmuel/ClionProjects/newHope/Socket.cpp">
+			<Option target="newHope"/>
+		</Unit>
+		<Unit filename="/home/shmuel/ClionProjects/newHope/Socket.h">
+			<Option target="newHope"/>
+		</Unit>
 		<Unit filename="/home/shmuel/ClionProjects/newHope/StandartCab.cpp">
 			<Option target="newHope"/>
 		</Unit>
@@ -443,6 +449,12 @@
 			<Option target="newHope"/>
 		</Unit>
 		<Unit filename="/home/shmuel/ClionProjects/newHope/TripInfo.h">
+			<Option target="newHope"/>
+		</Unit>
+		<Unit filename="/home/shmuel/ClionProjects/newHope/Udp.cpp">
+			<Option target="newHope"/>
+		</Unit>
+		<Unit filename="/home/shmuel/ClionProjects/newHope/Udp.h">
 			<Option target="newHope"/>
 		</Unit>
 		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/src/gmock-all.cc">

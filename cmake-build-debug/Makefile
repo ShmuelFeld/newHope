@@ -489,6 +489,33 @@ Point.cpp.s:
 	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
+Socket.o: Socket.cpp.o
+
+.PHONY : Socket.o
+
+# target to build an object file
+Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Socket.cpp.o
+.PHONY : Socket.cpp.o
+
+Socket.i: Socket.cpp.i
+
+.PHONY : Socket.i
+
+# target to preprocess a source file
+Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Socket.cpp.i
+.PHONY : Socket.cpp.i
+
+Socket.s: Socket.cpp.s
+
+.PHONY : Socket.s
+
+# target to generate assembly for a file
+Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Socket.cpp.s
+.PHONY : Socket.cpp.s
+
 StandartCab.o: StandartCab.cpp.o
 
 .PHONY : StandartCab.o
@@ -867,6 +894,33 @@ TripInfo.cpp.s:
 	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/TripInfo.cpp.s
 .PHONY : TripInfo.cpp.s
 
+Udp.o: Udp.cpp.o
+
+.PHONY : Udp.o
+
+# target to build an object file
+Udp.cpp.o:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Udp.cpp.o
+.PHONY : Udp.cpp.o
+
+Udp.i: Udp.cpp.i
+
+.PHONY : Udp.i
+
+# target to preprocess a source file
+Udp.cpp.i:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Udp.cpp.i
+.PHONY : Udp.cpp.i
+
+Udp.s: Udp.cpp.s
+
+.PHONY : Udp.s
+
+# target to generate assembly for a file
+Udp.cpp.s:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Udp.cpp.s
+.PHONY : Udp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -941,6 +995,9 @@ help:
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"
+	@echo "... Socket.o"
+	@echo "... Socket.i"
+	@echo "... Socket.s"
 	@echo "... StandartCab.o"
 	@echo "... StandartCab.i"
 	@echo "... StandartCab.s"
@@ -983,6 +1040,9 @@ help:
 	@echo "... TripInfo.o"
 	@echo "... TripInfo.i"
 	@echo "... TripInfo.s"
+	@echo "... Udp.o"
+	@echo "... Udp.i"
+	@echo "... Udp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

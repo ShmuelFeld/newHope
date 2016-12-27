@@ -657,6 +657,54 @@ CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o.provides: CMakeFiles/newHope.di
 CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o.provides.build: CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o
 
 
+CMakeFiles/newHope.dir/Udp.cpp.o: CMakeFiles/newHope.dir/flags.make
+CMakeFiles/newHope.dir/Udp.cpp.o: ../Udp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/newHope.dir/Udp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Udp.cpp.o -c /home/shmuel/ClionProjects/newHope/Udp.cpp
+
+CMakeFiles/newHope.dir/Udp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Udp.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Udp.cpp > CMakeFiles/newHope.dir/Udp.cpp.i
+
+CMakeFiles/newHope.dir/Udp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Udp.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Udp.cpp -o CMakeFiles/newHope.dir/Udp.cpp.s
+
+CMakeFiles/newHope.dir/Udp.cpp.o.requires:
+
+.PHONY : CMakeFiles/newHope.dir/Udp.cpp.o.requires
+
+CMakeFiles/newHope.dir/Udp.cpp.o.provides: CMakeFiles/newHope.dir/Udp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Udp.cpp.o.provides.build
+.PHONY : CMakeFiles/newHope.dir/Udp.cpp.o.provides
+
+CMakeFiles/newHope.dir/Udp.cpp.o.provides.build: CMakeFiles/newHope.dir/Udp.cpp.o
+
+
+CMakeFiles/newHope.dir/Socket.cpp.o: CMakeFiles/newHope.dir/flags.make
+CMakeFiles/newHope.dir/Socket.cpp.o: ../Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/newHope.dir/Socket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Socket.cpp.o -c /home/shmuel/ClionProjects/newHope/Socket.cpp
+
+CMakeFiles/newHope.dir/Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Socket.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Socket.cpp > CMakeFiles/newHope.dir/Socket.cpp.i
+
+CMakeFiles/newHope.dir/Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Socket.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Socket.cpp -o CMakeFiles/newHope.dir/Socket.cpp.s
+
+CMakeFiles/newHope.dir/Socket.cpp.o.requires:
+
+.PHONY : CMakeFiles/newHope.dir/Socket.cpp.o.requires
+
+CMakeFiles/newHope.dir/Socket.cpp.o.provides: CMakeFiles/newHope.dir/Socket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Socket.cpp.o.provides.build
+.PHONY : CMakeFiles/newHope.dir/Socket.cpp.o.provides
+
+CMakeFiles/newHope.dir/Socket.cpp.o.provides.build: CMakeFiles/newHope.dir/Socket.cpp.o
+
+
 # Object files for target newHope
 newHope_OBJECTS = \
 "CMakeFiles/newHope.dir/main.cpp.o" \
@@ -683,7 +731,9 @@ newHope_OBJECTS = \
 "CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o" \
 "CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o" \
 "CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o" \
-"CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o"
+"CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o" \
+"CMakeFiles/newHope.dir/Udp.cpp.o" \
+"CMakeFiles/newHope.dir/Socket.cpp.o"
 
 # External object files for target newHope
 newHope_EXTERNAL_OBJECTS =
@@ -713,12 +763,14 @@ newHope: CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o
 newHope: CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o
 newHope: CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o
 newHope: CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o
+newHope: CMakeFiles/newHope.dir/Udp.cpp.o
+newHope: CMakeFiles/newHope.dir/Socket.cpp.o
 newHope: CMakeFiles/newHope.dir/build.make
 newHope: lib/googletest-master/googlemock/gtest/libgtest.a
 newHope: lib/googletest-master/googlemock/gtest/libgtest_main.a
 newHope: lib/googletest-master/googlemock/gtest/libgtest.a
 newHope: CMakeFiles/newHope.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable newHope"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable newHope"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/newHope.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -751,6 +803,8 @@ CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o.
 CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o.requires
 CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o.requires
 CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o.requires
+CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Udp.cpp.o.requires
+CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Socket.cpp.o.requires
 
 .PHONY : CMakeFiles/newHope.dir/requires
 

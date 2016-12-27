@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shmuel/ClionProjects/newHope/Node.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Node.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Passenger.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Passenger.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Point.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Point.cpp.o"
+  "/home/shmuel/ClionProjects/newHope/Socket.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Socket.cpp.o"
   "/home/shmuel/ClionProjects/newHope/StandartCab.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/StandartCab.cpp.o"
   "/home/shmuel/ClionProjects/newHope/TaxiCentre.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/TaxiCentre.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Test/BFSPointTest.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o"
@@ -28,6 +29,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shmuel/ClionProjects/newHope/Test/TaxiCentreTest.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Test/TripInfoTest.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o"
   "/home/shmuel/ClionProjects/newHope/TripInfo.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/TripInfo.cpp.o"
+  "/home/shmuel/ClionProjects/newHope/Udp.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Udp.cpp.o"
   "/home/shmuel/ClionProjects/newHope/main.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
