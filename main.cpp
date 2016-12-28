@@ -94,12 +94,11 @@ int main(int argc, char* argv[]) {
 
     Udp udp(1, 5555);
     udp.initialize();
-
+    std::string serial_str;
     char buffer[1024];
     udp.reciveData(buffer, sizeof(buffer));
-    std::string serial_str = buffer;
     GridPoint *gp2;
-    boost::iostreams::basic_array_source<char> device(serial_str.c_str(), serial_str.size());
+    boost::iostreams::basic_array_source<char> device(buffer, sizeof(buffer));
     boost::iostreams::stream<boost::iostreams::basic_array_source<char> > s2(device);
     boost::archive::binary_iarchive ia(s2);
     ia >> gp2;
