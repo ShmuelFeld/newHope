@@ -1,4 +1,4 @@
-# Install script for directory: /home/shmuel/ClionProjects/newHope
+# Install script for directory: /home/ran/ClionProjects/newHope2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shmuel/ClionProjects/newHope/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ran/ClionProjects/newHope2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

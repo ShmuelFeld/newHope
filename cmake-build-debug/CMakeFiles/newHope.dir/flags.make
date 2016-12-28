@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -lpthread -g   -std=gnu++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -DHAS_BOOST
 
-CXX_INCLUDES = -I/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include 
+CXX_INCLUDES = -I/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include 
 

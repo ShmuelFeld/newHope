@@ -73,6 +73,9 @@ CMakeFiles/newHope.dir/Passenger.cpp.o: ../Point.h
 CMakeFiles/newHope.dir/Point.cpp.o: ../Point.cpp
 CMakeFiles/newHope.dir/Point.cpp.o: ../Point.h
 
+CMakeFiles/newHope.dir/Socket.cpp.o: ../Socket.cpp
+CMakeFiles/newHope.dir/Socket.cpp.o: ../Socket.h
+
 CMakeFiles/newHope.dir/StandartCab.cpp.o: ../BFSPoint.h
 CMakeFiles/newHope.dir/StandartCab.cpp.o: ../Bfs.h
 CMakeFiles/newHope.dir/StandartCab.cpp.o: ../Cab.h
@@ -437,6 +440,10 @@ CMakeFiles/newHope.dir/TripInfo.cpp.o: ../Point.h
 CMakeFiles/newHope.dir/TripInfo.cpp.o: ../TripInfo.cpp
 CMakeFiles/newHope.dir/TripInfo.cpp.o: ../TripInfo.h
 
+CMakeFiles/newHope.dir/Udp.cpp.o: ../Socket.h
+CMakeFiles/newHope.dir/Udp.cpp.o: ../Udp.cpp
+CMakeFiles/newHope.dir/Udp.cpp.o: ../Udp.h
+
 CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-message.h
 CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
@@ -459,5 +466,10 @@ CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/g
 CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
 CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/newHope.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/newHope.dir/main.cpp.o: ../BFSPoint.h
+CMakeFiles/newHope.dir/main.cpp.o: ../Node.h
+CMakeFiles/newHope.dir/main.cpp.o: ../Point.h
+CMakeFiles/newHope.dir/main.cpp.o: ../Socket.h
+CMakeFiles/newHope.dir/main.cpp.o: ../Udp.h
 CMakeFiles/newHope.dir/main.cpp.o: ../main.cpp
 

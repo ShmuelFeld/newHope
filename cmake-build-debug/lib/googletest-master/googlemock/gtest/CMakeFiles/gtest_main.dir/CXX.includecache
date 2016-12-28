@@ -278,9 +278,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest_main.cc
+/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest/gtest.h
 

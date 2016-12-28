@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest-all.cc" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
-  "/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/src/gmock-all.cc" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
-  "/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/src/gmock_main.cc" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest-all.cc" "/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
+  "/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/src/gmock-all.cc" "/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
+  "/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/src/gmock_main.cc" "/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
