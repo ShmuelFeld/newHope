@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
     s.flush();
 
     cout << serial_str << endl;
-
+dfsdfdd
     TripInfo *ti2;
     Point *po2;
     BFSPoint *yt;
