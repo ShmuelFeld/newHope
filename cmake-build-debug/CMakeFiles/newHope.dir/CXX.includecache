@@ -595,6 +595,10 @@ boost/archive/binary_iarchive.hpp
 /home/shmuel/ClionProjects/newHope/TripInfo.h
 ../Grid.h
 /home/shmuel/ClionProjects/newHope/Grid.h
+../StandartCab.h
+/home/shmuel/ClionProjects/newHope/StandartCab.h
+../LuxuryCab.h
+/home/shmuel/ClionProjects/newHope/LuxuryCab.h
 unistd.h
 -
 

@@ -354,6 +354,12 @@
 		<Unit filename="/home/shmuel/ClionProjects/newHope/Cab.h">
 			<Option target="newHope"/>
 		</Unit>
+		<Unit filename="/home/shmuel/ClionProjects/newHope/Clock.cpp">
+			<Option target="newHope"/>
+		</Unit>
+		<Unit filename="/home/shmuel/ClionProjects/newHope/Clock.h">
+			<Option target="newHope"/>
+		</Unit>
 		<Unit filename="/home/shmuel/ClionProjects/newHope/Driver.cpp">
 			<Option target="newHope"/>
 		</Unit>

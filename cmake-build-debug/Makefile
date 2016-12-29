@@ -300,6 +300,33 @@ Cab.cpp.s:
 	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Cab.cpp.s
 .PHONY : Cab.cpp.s
 
+Clock.o: Clock.cpp.o
+
+.PHONY : Clock.o
+
+# target to build an object file
+Clock.cpp.o:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Clock.cpp.o
+.PHONY : Clock.cpp.o
+
+Clock.i: Clock.cpp.i
+
+.PHONY : Clock.i
+
+# target to preprocess a source file
+Clock.cpp.i:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Clock.cpp.i
+.PHONY : Clock.cpp.i
+
+Clock.s: Clock.cpp.s
+
+.PHONY : Clock.s
+
+# target to generate assembly for a file
+Clock.cpp.s:
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Clock.cpp.s
+.PHONY : Clock.cpp.s
+
 Driver.o: Driver.cpp.o
 
 .PHONY : Driver.o
@@ -974,6 +1001,9 @@ help:
 	@echo "... Cab.o"
 	@echo "... Cab.i"
 	@echo "... Cab.s"
+	@echo "... Clock.o"
+	@echo "... Clock.i"
+	@echo "... Clock.s"
 	@echo "... Driver.o"
 	@echo "... Driver.i"
 	@echo "... Driver.s"

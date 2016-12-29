@@ -469,10 +469,13 @@ CMakeFiles/newHope.dir/untiteld3/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  /home/shmuel/ClionProjects/newHope/BFSPoint.h
  /home/shmuel/ClionProjects/newHope/Bfs.h
+ /home/shmuel/ClionProjects/newHope/Cab.h
  /home/shmuel/ClionProjects/newHope/Grid.h
+ /home/shmuel/ClionProjects/newHope/LuxuryCab.h
  /home/shmuel/ClionProjects/newHope/Node.h
  /home/shmuel/ClionProjects/newHope/Point.h
  /home/shmuel/ClionProjects/newHope/Socket.h
+ /home/shmuel/ClionProjects/newHope/StandartCab.h
  /home/shmuel/ClionProjects/newHope/TripInfo.h
  /home/shmuel/ClionProjects/newHope/Udp.h
  /home/shmuel/ClionProjects/newHope/untiteld3/main.cpp

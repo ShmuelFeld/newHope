@@ -24,6 +24,8 @@
 #include <boost/archive/binary_iarchive.hpp>
 #include "../TripInfo.h"
 #include "../Grid.h"
+#include "../StandartCab.h"
+#include "../LuxuryCab.h"
 #include <unistd.h>
 
 using namespace std;
@@ -36,24 +38,23 @@ int main(int argc, char* argv[]) {
     Point *po = new Point(2,2);
     TripInfo *ti = new TripInfo(1, st, en, 2, 20);
     Grid *g = new Grid(7,8);
+    LuxuryCab *sc = new LuxuryCab(8, 'H', 'B');
     std::string serial_str;
     boost::iostreams::back_insert_device<std::string> inserter(serial_str);
     boost::iostreams::stream<boost::iostreams::back_insert_device<std::string> > s(inserter);
     boost::archive::binary_oarchive oa(s);
-    oa << g;
+    oa << sc;
     s.flush();
-
-    cout << serial_str << endl;
-dfsdfdd
     TripInfo *ti2;
     Point *po2;
     BFSPoint *yt;
     Grid *g2;
+    LuxuryCab *sc2;
     boost::iostreams::basic_array_source<char> device(serial_str.c_str(), serial_str.size());
     boost::iostreams::stream<boost::iostreams::basic_array_source<char> > s2(device);
     boost::archive::binary_iarchive ia(s2);
-    ia >> g2;
-    cout<< g2->search(6,5)->getX()<<g2->search(6,5)->getY()<<endl;
+    ia >> sc2;
+    cout<< sc2->getID()<<endl;
 
     Udp udp(1, 5555);
     udp.initialize();

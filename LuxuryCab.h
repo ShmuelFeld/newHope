@@ -56,6 +56,16 @@ namespace std {
          * @return the price for trip.
          */
         int getID();
+        friend class boost::serialization::access;
+        template<class Archive>
+        void serialize(Archive &ar, const unsigned int version)
+        {
+            ar & id;
+            ar & kilometerPassed;
+            ar & manu;
+            ar & color;
+            ar & sc;
+        }
     };
 
 } /* namespace std */

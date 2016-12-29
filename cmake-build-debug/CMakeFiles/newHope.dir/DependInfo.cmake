@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shmuel/ClionProjects/newHope/BFSPoint.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/BFSPoint.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Bfs.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Bfs.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Cab.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Cab.cpp.o"
+  "/home/shmuel/ClionProjects/newHope/Clock.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Clock.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Driver.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Driver.cpp.o"
   "/home/shmuel/ClionProjects/newHope/GameFlow.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/GameFlow.cpp.o"
   "/home/shmuel/ClionProjects/newHope/Grid.cpp" "/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/Grid.cpp.o"

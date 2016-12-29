@@ -26,6 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/newHope.dir/Udp.cpp.o"
   "CMakeFiles/newHope.dir/Socket.cpp.o"
   "CMakeFiles/newHope.dir/untiteld3/main.cpp.o"
+  "CMakeFiles/newHope.dir/Clock.cpp.o"
   "newHope.pdb"
   "newHope"
 )
