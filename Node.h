@@ -10,6 +10,8 @@
 using namespace std;
 #include <string>
 #include <vector>
+#include <boost/serialization/access.hpp>
+#include <boost/serialization/vector.hpp>
 /**
  * this abstract class defines generic node for the bfs algorithm.
  */
@@ -82,6 +84,15 @@ public:
      * @return the boolean value valid.
      */
     virtual bool amIValid() = 0;
+    template<class Archive>
+    void serialize(Archive &ar, const unsigned int version)
+    {
+        ar & chil;
+        ar & father;
+        ar & height;
+        ar & valid;
+        ar & next;
+    }
 };
 
 #endif /* NODE_H_ */

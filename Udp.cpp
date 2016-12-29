@@ -63,7 +63,7 @@ int Udp::initialize() {
 * The Input: string representing the data to send		               *
 * The output: int number representing the return status		           *
 * The Function operation: sending the input data to the socket         *
-* who connect to this socket. check if send successfully				   *
+* who connect to this socket. check if send successfully			   *
 ***********************************************************************/
 int Udp::sendData(string data) {
     //initialize the struct

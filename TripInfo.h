@@ -9,7 +9,7 @@
 #define TRIPINFO_H_
 #include "BFSPoint.h"
 #include "Bfs.h"
-
+#include <boost/serialization/access.hpp>
 namespace std {
 
     class TripInfo {
@@ -63,6 +63,21 @@ namespace std {
          * @return the tariff for this trip.
          */
         double getTariff();
+        /**
+         *
+         */
+        friend class boost::serialization::access;
+        template<class Archive>
+        void serialize(Archive &ar, const unsigned int version)
+        {
+                ar & id;
+                ar & meter;
+                ar & start;
+                ar & end;
+                ar & passengers;
+                ar & tariff;
+        }
+
     };
 
 } /* namespace std */

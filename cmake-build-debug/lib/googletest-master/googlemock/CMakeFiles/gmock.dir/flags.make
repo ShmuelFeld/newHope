@@ -6,5 +6,5 @@ CXX_FLAGS =  -lpthread -g    -lpthread -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fex
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/include -I/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock -I/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include -I/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest 
+CXX_INCLUDES = -I/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/include -I/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock -I/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include -I/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest 
 

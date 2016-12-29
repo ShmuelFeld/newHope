@@ -17,7 +17,6 @@ namespace std {
         meter = 0;
         tariff = ride_tariff;
     }
-
     TripInfo::TripInfo() {
         start = NULL;
         end = NULL;
@@ -48,4 +47,5 @@ TripInfo::~TripInfo() {
     double TripInfo::getTariff() {
         return tariff;
     }
+
 } /* namespace std */

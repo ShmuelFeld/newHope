@@ -6,8 +6,8 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 #include <gtest/gtest.h>
-#include "Udp.h"
-#include "BFSPoint.h"
+#include "../Udp.h"
+#include "../BFSPoint.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -22,14 +22,14 @@
 #include <boost/iostreams/stream.hpp>
 #include <boost/archive/binary_oarchive.hpp>
 #include <boost/archive/binary_iarchive.hpp>
-#include "Udp.h"
+#include "../TripInfo.h"
 #include <unistd.h>
 
 using namespace std;
 using namespace boost::archive;
 std::stringstream ss;
 
-class Poind {
+class mPoind {
     int x, y;
 
     friend class boost::serialization::access;
@@ -41,16 +41,16 @@ class Poind {
         ar & y;
     }
 public:
-    Poind(int x, int y) : x(x), y(y) {}
+    mPoind(int x, int y) : x(x), y(y) {}
 
-    Poind() : x(0), y(0) {}
+    mPoind() : x(0), y(0) {}
     int getX() {return this->x;}
     int getY() {return this->y;}
 
 };
 
 class GridPoint {
-    Poind *p;
+    mPoind *p;
 
     friend class boost::serialization::access;
 
@@ -61,7 +61,7 @@ class GridPoint {
     }
 
 public:
-    GridPoint(Poind *p) : p(p) {};
+    GridPoint(mPoind *p) : p(p) {};
     GridPoint() : p(NULL) {}
     virtual ~GridPoint() {
         delete p;
@@ -85,26 +85,38 @@ class D3GridPoint : public GridPoint {
         ar & z;
     }
 public:
-    D3GridPoint(Poind *p, int z) : GridPoint(p), z(z) {};
+    D3GridPoint(mPoind *p, int z) : GridPoint(p), z(z) {};
 };
 
 int main(int argc, char* argv[]) {
-
-
-
-    Udp udp(1, 5555);
-    udp.initialize();
+    GridPoint *gp = new GridPoint(new mPoind(1,5));
+    BFSPoint *st = new BFSPoint(2,2);
+    BFSPoint *en = new BFSPoint(4,5);
+    Point *po = new Point(2,2);
+    TripInfo *ti = new TripInfo(1, st, en, 2, 20);
     std::string serial_str;
-    char buffer[1024];
-    udp.reciveData(buffer, sizeof(buffer));
-    GridPoint *gp2;
-    boost::iostreams::basic_array_source<char> device(buffer, sizeof(buffer));
+    boost::iostreams::back_insert_device<std::string> inserter(serial_str);
+    boost::iostreams::stream<boost::iostreams::back_insert_device<std::string> > s(inserter);
+    boost::archive::binary_oarchive oa(s);
+    oa << ti;
+    s.flush();
+
+    cout << serial_str << endl;
+
+   /* TripInfo *ti2;
+    Point *po2;
+    BFSPoint *yt;
+    boost::iostreams::basic_array_source<char> device(serial_str.c_str(), serial_str.size());
     boost::iostreams::stream<boost::iostreams::basic_array_source<char> > s2(device);
     boost::archive::binary_iarchive ia(s2);
-    ia >> gp2;
+    ia >> ti2;
 
-    cout << *gp2;
-    udp.sendData("sup?");
+    cout << "("<<ti2->getEnd()->getX()<<","<<ti2->getEnd()->getY()<<")"<<endl;*/
+    Udp udp(1, 5555);
+    udp.initialize();
+    char buffer[1024];
+    udp.reciveData(buffer, sizeof(buffer));
+    udp.sendData(serial_str);
 
 
 //

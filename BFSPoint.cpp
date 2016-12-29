@@ -18,6 +18,7 @@ BFSPoint::BFSPoint(int a, int b) {
     father = 0;
     valid = true;
 }
+
 BFSPoint::BFSPoint() {
     po = 0;
     left = 0;
@@ -86,6 +87,7 @@ int BFSPoint::numOfSons() {
     return 4;
 }
 vector<Node*>* BFSPoint::sons(){
+    vector<Node*>* p;
     chil.push_back(get_left());
     chil.push_back(get_up());
     chil.push_back(get_right());

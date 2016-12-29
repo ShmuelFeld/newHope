@@ -540,21 +540,21 @@ sys/types.h
 src/gtest-internal-inl.h
 ../lib/googletest-master/googletest/src/src/gtest-internal-inl.h
 
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest-all.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest-all.cc
 gtest/gtest.h
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest/gtest.h
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest/gtest.h
 src/gtest.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest-death-test.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest-filepath.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest-port.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest-printers.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest-test-part.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/src/gtest-typed-test.cc
+/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/src/gtest-typed-test.cc
 

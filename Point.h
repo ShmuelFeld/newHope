@@ -8,6 +8,7 @@
 #ifndef POINT_H_
 #define POINT_H_
 #include<iostream>
+#include <boost/serialization/access.hpp>
 /**
  * this class is sort of primitive class that represent point in the space.
  */
@@ -67,6 +68,14 @@ namespace std {
          * @return true if they are not equal, otherwise false.
          */
         bool operator!=(const Point& point)const;
+        friend class boost::serialization::access;
+
+        template<class Archive>
+        void serialize(Archive &ar, const unsigned int version)
+        {
+            ar & x;
+            ar & y;
+        }
 
     };
 

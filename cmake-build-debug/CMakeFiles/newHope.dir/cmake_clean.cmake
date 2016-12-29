@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/newHope.dir/main.cpp.o"
   "CMakeFiles/newHope.dir/BFSPoint.cpp.o"
   "CMakeFiles/newHope.dir/Bfs.cpp.o"
   "CMakeFiles/newHope.dir/Cab.cpp.o"
@@ -26,6 +25,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o"
   "CMakeFiles/newHope.dir/Udp.cpp.o"
   "CMakeFiles/newHope.dir/Socket.cpp.o"
+  "CMakeFiles/newHope.dir/untiteld3/main.cpp.o"
   "newHope.pdb"
   "newHope"
 )

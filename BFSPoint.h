@@ -9,13 +9,14 @@
 #define BFSPOINT_H_
 #include "Node.h"
 #include "Point.h"
+#include <boost/serialization/vector.hpp>
 /**
  * this class is the point that we are operating the bfs on.
  * holds a point, and inherit from node.
  */
 class BFSPoint: public Node {
 private:
-    vector<Node*>* p;
+
     Point* po;
     int height;
     BFSPoint* left;
@@ -146,5 +147,23 @@ public:
      * sets the validate of point.
      */
     void setValid();
+    friend class boost::serialization::access;
+
+    template<class Archive>
+    void serialize(Archive &ar, const unsigned int version)
+    {
+        ar & height;
+        ar & left;
+        ar & up;
+        ar & right;
+        ar & down;
+        ar & father;
+        ar & next;
+        for (int i = 0; i < 2; i++) {
+            ar & arr;
+        }
+        ar & valid;
+        ar & po;
+    }
 };
 #endif /* POINT_H_ */
