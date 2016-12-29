@@ -7,6 +7,7 @@
 #include "GameFlow.h"
 #include "StandartCab.h"
 #include "LuxuryCab.h"
+#include "Udp.h"
 
 using namespace std;
 
@@ -34,13 +35,18 @@ int GameFlow::menu() {
 		cin >> command;
 		switch (command) {
 			case 1: {
-				int vehicle_id, age, exp, driver_id;
-				char status, space;
-				cin >> driver_id >> space >> age >> space >> status
-					>> space >> exp >> space >> vehicle_id;
-				c->addDriver(new Driver(driver_id, age, status,
-										exp, vehicle_id, g->root()));
-				break;
+				int numOfDrivers,portNum;
+                int i = 0;
+				cin >> numOfDrivers;
+                while (i != numOfDrivers) {
+                    Udp udp(1, portNum - i);
+                    udp.initialize();
+                    char buffer[1024];
+                    udp.reciveData(buffer, sizeof(buffer));
+                    cout<< buffer <<endl;
+                    i++;
+                    //udp.sendData(serial_str);
+                }
 			}
 			case 2: {
 				int id, x_s, y_s, x_e, y_e, pass;
@@ -51,7 +57,8 @@ int GameFlow::menu() {
 					>> pass >> space >> tariff ;
 				BFSPoint start(x_s, y_s);
                 BFSPoint end(x_e, y_e);
-				ti = new TripInfo(id,(BFSPoint *)bfs.path(root, &start), (BFSPoint *)bfs.path(root, &end), pass, tariff);
+				ti = new TripInfo(id,(BFSPoint *)bfs.path(root, &start),
+                                  (BFSPoint *)bfs.path(root, &end), pass, tariff);
 				c->addRide(ti);
 				break;
 			}
