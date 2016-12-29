@@ -30,65 +30,6 @@ using namespace std;
 using namespace boost::archive;
 std::stringstream ss;
 
-class mPoind {
-    int x, y;
-
-    friend class boost::serialization::access;
-
-    template<class Archive>
-    void serialize(Archive &ar, const unsigned int version)
-    {
-        ar & x;
-        ar & y;
-    }
-public:
-    mPoind(int x, int y) : x(x), y(y) {}
-
-    mPoind() : x(0), y(0) {}
-    int getX() {return this->x;}
-    int getY() {return this->y;}
-
-};
-
-class GridPoint {
-    mPoind *p;
-
-    friend class boost::serialization::access;
-
-    template<class Archive>
-    void serialize(Archive &ar, const unsigned int version)
-    {
-        ar & p;
-    }
-
-public:
-    GridPoint(mPoind *p) : p(p) {};
-    GridPoint() : p(NULL) {}
-    virtual ~GridPoint() {
-        delete p;
-    }
-    friend std::ostream& operator<< (std::ostream &os, const GridPoint &p);
-};
-
-std::ostream& operator<< (std::ostream &os, const GridPoint &p) {
-    os << '(' << p.p->getX() << ',' << p.p->getY() << ')';
-    return os;
-}
-
-class D3GridPoint : public GridPoint {
-    int z;
-
-    friend class boost::serialization::access;
-    template<class Archive>
-    void serialize(Archive &ar, const unsigned int version)
-    {
-        ar & boost::serialization::base_object<GridPoint>(*this);
-        ar & z;
-    }
-public:
-    D3GridPoint(mPoind *p, int z) : GridPoint(p), z(z) {};
-};
-
 int main(int argc, char* argv[]) {
     BFSPoint *st = new BFSPoint(2,2);
     BFSPoint *en = new BFSPoint(8,9);
@@ -107,11 +48,12 @@ int main(int argc, char* argv[]) {
     TripInfo *ti2;
     Point *po2;
     BFSPoint *yt;
+    Grid *g2;
     boost::iostreams::basic_array_source<char> device(serial_str.c_str(), serial_str.size());
     boost::iostreams::stream<boost::iostreams::basic_array_source<char> > s2(device);
     boost::archive::binary_iarchive ia(s2);
-    ia >> ti2;
-    cout << "("<<ti2->getEnd()->getX()<<","<<ti2->getEnd()->getY()<<")"<<endl;*/
+    ia >> g2;
+    cout<< g2->search(6,5)->getX()<<g2->search(6,5)->getY()<<endl;
 
     Udp udp(1, 5555);
     udp.initialize();

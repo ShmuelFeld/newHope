@@ -365,6 +365,8 @@ BFSPoint.h
 /home/shmuel/ClionProjects/newHope/BFSPoint.h
 vector
 -
+boost/serialization/vector.hpp
+-
 
 /home/shmuel/ClionProjects/newHope/LuxuryCab.cpp
 LuxuryCab.h
@@ -591,6 +593,8 @@ boost/archive/binary_iarchive.hpp
 -
 ../TripInfo.h
 /home/shmuel/ClionProjects/newHope/TripInfo.h
+../Grid.h
+/home/shmuel/ClionProjects/newHope/Grid.h
 unistd.h
 -
 
