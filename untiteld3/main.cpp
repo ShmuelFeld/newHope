@@ -24,8 +24,6 @@
 #include <boost/archive/binary_iarchive.hpp>
 #include "../TripInfo.h"
 #include "../Grid.h"
-#include "../GameFlow.h"
-
 #include <unistd.h>
 
 using namespace std;
@@ -33,9 +31,7 @@ using namespace boost::archive;
 std::stringstream ss;
 
 int main(int argc, char* argv[]) {
-    GameFlow *g;
-    g->menu();
-    /*BFSPoint *st = new BFSPoint(2,2);
+    BFSPoint *st = new BFSPoint(2,2);
     BFSPoint *en = new BFSPoint(8,9);
     Point *po = new Point(2,2);
     TripInfo *ti = new TripInfo(1, st, en, 2, 20);
@@ -46,6 +42,9 @@ int main(int argc, char* argv[]) {
     boost::archive::binary_oarchive oa(s);
     oa << g;
     s.flush();
+
+    cout << serial_str << endl;
+dfsdfdd
     TripInfo *ti2;
     Point *po2;
     BFSPoint *yt;
@@ -75,5 +74,5 @@ int main(int argc, char* argv[]) {
     udp2.sendData("sup?");
 
     // support more than one client?
-    return 0;*/
+    return 0;
 }
