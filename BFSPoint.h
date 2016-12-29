@@ -1,5 +1,5 @@
 /*
- * Point.h
+ * BFSPoint.h
  *
  *  Created on: Nov 15, 2016
  *      Author: shmuel
