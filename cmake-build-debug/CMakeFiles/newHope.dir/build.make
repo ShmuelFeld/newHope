@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/shmuel/clion-2016.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ran/Clion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/shmuel/clion-2016.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/ran/Clion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shmuel/ClionProjects/newHope
+CMAKE_SOURCE_DIR = /home/ran/ClionProjects/newHope2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shmuel/ClionProjects/newHope/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ran/ClionProjects/newHope2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/newHope.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/newHope.dir/flags.make
 
 CMakeFiles/newHope.dir/BFSPoint.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/BFSPoint.cpp.o: ../BFSPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/newHope.dir/BFSPoint.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/BFSPoint.cpp.o -c /home/shmuel/ClionProjects/newHope/BFSPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/newHope.dir/BFSPoint.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/BFSPoint.cpp.o -c /home/ran/ClionProjects/newHope2/BFSPoint.cpp
 
 CMakeFiles/newHope.dir/BFSPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/BFSPoint.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/BFSPoint.cpp > CMakeFiles/newHope.dir/BFSPoint.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/BFSPoint.cpp > CMakeFiles/newHope.dir/BFSPoint.cpp.i
 
 CMakeFiles/newHope.dir/BFSPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/BFSPoint.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/BFSPoint.cpp -o CMakeFiles/newHope.dir/BFSPoint.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/BFSPoint.cpp -o CMakeFiles/newHope.dir/BFSPoint.cpp.s
 
 CMakeFiles/newHope.dir/BFSPoint.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/newHope.dir/BFSPoint.cpp.o.provides.build: CMakeFiles/newHope.dir/BFS
 
 CMakeFiles/newHope.dir/Bfs.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Bfs.cpp.o: ../Bfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/newHope.dir/Bfs.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Bfs.cpp.o -c /home/shmuel/ClionProjects/newHope/Bfs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/newHope.dir/Bfs.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Bfs.cpp.o -c /home/ran/ClionProjects/newHope2/Bfs.cpp
 
 CMakeFiles/newHope.dir/Bfs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Bfs.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Bfs.cpp > CMakeFiles/newHope.dir/Bfs.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Bfs.cpp > CMakeFiles/newHope.dir/Bfs.cpp.i
 
 CMakeFiles/newHope.dir/Bfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Bfs.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Bfs.cpp -o CMakeFiles/newHope.dir/Bfs.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Bfs.cpp -o CMakeFiles/newHope.dir/Bfs.cpp.s
 
 CMakeFiles/newHope.dir/Bfs.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/newHope.dir/Bfs.cpp.o.provides.build: CMakeFiles/newHope.dir/Bfs.cpp.
 
 CMakeFiles/newHope.dir/Cab.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Cab.cpp.o: ../Cab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/newHope.dir/Cab.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Cab.cpp.o -c /home/shmuel/ClionProjects/newHope/Cab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/newHope.dir/Cab.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Cab.cpp.o -c /home/ran/ClionProjects/newHope2/Cab.cpp
 
 CMakeFiles/newHope.dir/Cab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Cab.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Cab.cpp > CMakeFiles/newHope.dir/Cab.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Cab.cpp > CMakeFiles/newHope.dir/Cab.cpp.i
 
 CMakeFiles/newHope.dir/Cab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Cab.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Cab.cpp -o CMakeFiles/newHope.dir/Cab.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Cab.cpp -o CMakeFiles/newHope.dir/Cab.cpp.s
 
 CMakeFiles/newHope.dir/Cab.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/newHope.dir/Cab.cpp.o.provides.build: CMakeFiles/newHope.dir/Cab.cpp.
 
 CMakeFiles/newHope.dir/Driver.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Driver.cpp.o: ../Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/newHope.dir/Driver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Driver.cpp.o -c /home/shmuel/ClionProjects/newHope/Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/newHope.dir/Driver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Driver.cpp.o -c /home/ran/ClionProjects/newHope2/Driver.cpp
 
 CMakeFiles/newHope.dir/Driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Driver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Driver.cpp > CMakeFiles/newHope.dir/Driver.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Driver.cpp > CMakeFiles/newHope.dir/Driver.cpp.i
 
 CMakeFiles/newHope.dir/Driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Driver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Driver.cpp -o CMakeFiles/newHope.dir/Driver.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Driver.cpp -o CMakeFiles/newHope.dir/Driver.cpp.s
 
 CMakeFiles/newHope.dir/Driver.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/newHope.dir/Driver.cpp.o.provides.build: CMakeFiles/newHope.dir/Drive
 
 CMakeFiles/newHope.dir/GameFlow.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../GameFlow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/newHope.dir/GameFlow.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/GameFlow.cpp.o -c /home/shmuel/ClionProjects/newHope/GameFlow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/newHope.dir/GameFlow.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/GameFlow.cpp.o -c /home/ran/ClionProjects/newHope2/GameFlow.cpp
 
 CMakeFiles/newHope.dir/GameFlow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/GameFlow.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/GameFlow.cpp > CMakeFiles/newHope.dir/GameFlow.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/GameFlow.cpp > CMakeFiles/newHope.dir/GameFlow.cpp.i
 
 CMakeFiles/newHope.dir/GameFlow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/GameFlow.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/GameFlow.cpp -o CMakeFiles/newHope.dir/GameFlow.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/GameFlow.cpp -o CMakeFiles/newHope.dir/GameFlow.cpp.s
 
 CMakeFiles/newHope.dir/GameFlow.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/newHope.dir/GameFlow.cpp.o.provides.build: CMakeFiles/newHope.dir/Gam
 
 CMakeFiles/newHope.dir/Grid.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Grid.cpp.o: ../Grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/newHope.dir/Grid.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Grid.cpp.o -c /home/shmuel/ClionProjects/newHope/Grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/newHope.dir/Grid.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Grid.cpp.o -c /home/ran/ClionProjects/newHope2/Grid.cpp
 
 CMakeFiles/newHope.dir/Grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Grid.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Grid.cpp > CMakeFiles/newHope.dir/Grid.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Grid.cpp > CMakeFiles/newHope.dir/Grid.cpp.i
 
 CMakeFiles/newHope.dir/Grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Grid.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Grid.cpp -o CMakeFiles/newHope.dir/Grid.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Grid.cpp -o CMakeFiles/newHope.dir/Grid.cpp.s
 
 CMakeFiles/newHope.dir/Grid.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/newHope.dir/Grid.cpp.o.provides.build: CMakeFiles/newHope.dir/Grid.cp
 
 CMakeFiles/newHope.dir/LuxuryCab.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/LuxuryCab.cpp.o: ../LuxuryCab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/newHope.dir/LuxuryCab.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/LuxuryCab.cpp.o -c /home/shmuel/ClionProjects/newHope/LuxuryCab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/newHope.dir/LuxuryCab.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/LuxuryCab.cpp.o -c /home/ran/ClionProjects/newHope2/LuxuryCab.cpp
 
 CMakeFiles/newHope.dir/LuxuryCab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/LuxuryCab.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/LuxuryCab.cpp > CMakeFiles/newHope.dir/LuxuryCab.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/LuxuryCab.cpp > CMakeFiles/newHope.dir/LuxuryCab.cpp.i
 
 CMakeFiles/newHope.dir/LuxuryCab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/LuxuryCab.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/LuxuryCab.cpp -o CMakeFiles/newHope.dir/LuxuryCab.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/LuxuryCab.cpp -o CMakeFiles/newHope.dir/LuxuryCab.cpp.s
 
 CMakeFiles/newHope.dir/LuxuryCab.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/newHope.dir/LuxuryCab.cpp.o.provides.build: CMakeFiles/newHope.dir/Lu
 
 CMakeFiles/newHope.dir/Node.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/newHope.dir/Node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Node.cpp.o -c /home/shmuel/ClionProjects/newHope/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/newHope.dir/Node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Node.cpp.o -c /home/ran/ClionProjects/newHope2/Node.cpp
 
 CMakeFiles/newHope.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Node.cpp > CMakeFiles/newHope.dir/Node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Node.cpp > CMakeFiles/newHope.dir/Node.cpp.i
 
 CMakeFiles/newHope.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Node.cpp -o CMakeFiles/newHope.dir/Node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Node.cpp -o CMakeFiles/newHope.dir/Node.cpp.s
 
 CMakeFiles/newHope.dir/Node.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/newHope.dir/Node.cpp.o.provides.build: CMakeFiles/newHope.dir/Node.cp
 
 CMakeFiles/newHope.dir/Passenger.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Passenger.cpp.o: ../Passenger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/newHope.dir/Passenger.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Passenger.cpp.o -c /home/shmuel/ClionProjects/newHope/Passenger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/newHope.dir/Passenger.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Passenger.cpp.o -c /home/ran/ClionProjects/newHope2/Passenger.cpp
 
 CMakeFiles/newHope.dir/Passenger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Passenger.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Passenger.cpp > CMakeFiles/newHope.dir/Passenger.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Passenger.cpp > CMakeFiles/newHope.dir/Passenger.cpp.i
 
 CMakeFiles/newHope.dir/Passenger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Passenger.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Passenger.cpp -o CMakeFiles/newHope.dir/Passenger.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Passenger.cpp -o CMakeFiles/newHope.dir/Passenger.cpp.s
 
 CMakeFiles/newHope.dir/Passenger.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/newHope.dir/Passenger.cpp.o.provides.build: CMakeFiles/newHope.dir/Pa
 
 CMakeFiles/newHope.dir/Point.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/newHope.dir/Point.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Point.cpp.o -c /home/shmuel/ClionProjects/newHope/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/newHope.dir/Point.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Point.cpp.o -c /home/ran/ClionProjects/newHope2/Point.cpp
 
 CMakeFiles/newHope.dir/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Point.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Point.cpp > CMakeFiles/newHope.dir/Point.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Point.cpp > CMakeFiles/newHope.dir/Point.cpp.i
 
 CMakeFiles/newHope.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Point.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Point.cpp -o CMakeFiles/newHope.dir/Point.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Point.cpp -o CMakeFiles/newHope.dir/Point.cpp.s
 
 CMakeFiles/newHope.dir/Point.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/newHope.dir/Point.cpp.o.provides.build: CMakeFiles/newHope.dir/Point.
 
 CMakeFiles/newHope.dir/StandartCab.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/StandartCab.cpp.o: ../StandartCab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/newHope.dir/StandartCab.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/StandartCab.cpp.o -c /home/shmuel/ClionProjects/newHope/StandartCab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/newHope.dir/StandartCab.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/StandartCab.cpp.o -c /home/ran/ClionProjects/newHope2/StandartCab.cpp
 
 CMakeFiles/newHope.dir/StandartCab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/StandartCab.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/StandartCab.cpp > CMakeFiles/newHope.dir/StandartCab.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/StandartCab.cpp > CMakeFiles/newHope.dir/StandartCab.cpp.i
 
 CMakeFiles/newHope.dir/StandartCab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/StandartCab.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/StandartCab.cpp -o CMakeFiles/newHope.dir/StandartCab.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/StandartCab.cpp -o CMakeFiles/newHope.dir/StandartCab.cpp.s
 
 CMakeFiles/newHope.dir/StandartCab.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/newHope.dir/StandartCab.cpp.o.provides.build: CMakeFiles/newHope.dir/
 
 CMakeFiles/newHope.dir/TaxiCentre.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/TaxiCentre.cpp.o: ../TaxiCentre.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/newHope.dir/TaxiCentre.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/TaxiCentre.cpp.o -c /home/shmuel/ClionProjects/newHope/TaxiCentre.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/newHope.dir/TaxiCentre.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/TaxiCentre.cpp.o -c /home/ran/ClionProjects/newHope2/TaxiCentre.cpp
 
 CMakeFiles/newHope.dir/TaxiCentre.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/TaxiCentre.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/TaxiCentre.cpp > CMakeFiles/newHope.dir/TaxiCentre.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/TaxiCentre.cpp > CMakeFiles/newHope.dir/TaxiCentre.cpp.i
 
 CMakeFiles/newHope.dir/TaxiCentre.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/TaxiCentre.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/TaxiCentre.cpp -o CMakeFiles/newHope.dir/TaxiCentre.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/TaxiCentre.cpp -o CMakeFiles/newHope.dir/TaxiCentre.cpp.s
 
 CMakeFiles/newHope.dir/TaxiCentre.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/newHope.dir/TaxiCentre.cpp.o.provides.build: CMakeFiles/newHope.dir/T
 
 CMakeFiles/newHope.dir/TripInfo.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/TripInfo.cpp.o: ../TripInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/newHope.dir/TripInfo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/TripInfo.cpp.o -c /home/shmuel/ClionProjects/newHope/TripInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/newHope.dir/TripInfo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/TripInfo.cpp.o -c /home/ran/ClionProjects/newHope2/TripInfo.cpp
 
 CMakeFiles/newHope.dir/TripInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/TripInfo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/TripInfo.cpp > CMakeFiles/newHope.dir/TripInfo.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/TripInfo.cpp > CMakeFiles/newHope.dir/TripInfo.cpp.i
 
 CMakeFiles/newHope.dir/TripInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/TripInfo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/TripInfo.cpp -o CMakeFiles/newHope.dir/TripInfo.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/TripInfo.cpp -o CMakeFiles/newHope.dir/TripInfo.cpp.s
 
 CMakeFiles/newHope.dir/TripInfo.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/newHope.dir/TripInfo.cpp.o.provides.build: CMakeFiles/newHope.dir/Tri
 
 CMakeFiles/newHope.dir/Test/PointTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/PointTest.cpp.o: ../Test/PointTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/newHope.dir/Test/PointTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/PointTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/PointTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/newHope.dir/Test/PointTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/PointTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/PointTest.cpp
 
 CMakeFiles/newHope.dir/Test/PointTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/PointTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/PointTest.cpp > CMakeFiles/newHope.dir/Test/PointTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/PointTest.cpp > CMakeFiles/newHope.dir/Test/PointTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/PointTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/PointTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/PointTest.cpp -o CMakeFiles/newHope.dir/Test/PointTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/PointTest.cpp -o CMakeFiles/newHope.dir/Test/PointTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/PointTest.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/newHope.dir/Test/PointTest.cpp.o.provides.build: CMakeFiles/newHope.d
 
 CMakeFiles/newHope.dir/Test/GridTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/GridTest.cpp.o: ../Test/GridTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/newHope.dir/Test/GridTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/GridTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/GridTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/newHope.dir/Test/GridTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/GridTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/GridTest.cpp
 
 CMakeFiles/newHope.dir/Test/GridTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/GridTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/GridTest.cpp > CMakeFiles/newHope.dir/Test/GridTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/GridTest.cpp > CMakeFiles/newHope.dir/Test/GridTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/GridTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/GridTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/GridTest.cpp -o CMakeFiles/newHope.dir/Test/GridTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/GridTest.cpp -o CMakeFiles/newHope.dir/Test/GridTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/GridTest.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/newHope.dir/Test/GridTest.cpp.o.provides.build: CMakeFiles/newHope.di
 
 CMakeFiles/newHope.dir/Test/BfsTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/BfsTest.cpp.o: ../Test/BfsTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/newHope.dir/Test/BfsTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/BfsTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/BfsTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/newHope.dir/Test/BfsTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/BfsTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/BfsTest.cpp
 
 CMakeFiles/newHope.dir/Test/BfsTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/BfsTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/BfsTest.cpp > CMakeFiles/newHope.dir/Test/BfsTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/BfsTest.cpp > CMakeFiles/newHope.dir/Test/BfsTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/BfsTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/BfsTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/BfsTest.cpp -o CMakeFiles/newHope.dir/Test/BfsTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/BfsTest.cpp -o CMakeFiles/newHope.dir/Test/BfsTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/BfsTest.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/newHope.dir/Test/BfsTest.cpp.o.provides.build: CMakeFiles/newHope.dir
 
 CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o: ../Test/StandartCabTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/StandartCabTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/StandartCabTest.cpp
 
 CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/StandartCabTest.cpp > CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/StandartCabTest.cpp > CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/StandartCabTest.cpp -o CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/StandartCabTest.cpp -o CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/newHope.dir/Test/StandartCabTest.cpp.o.provides.build: CMakeFiles/new
 
 CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o: ../Test/TripInfoTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/TripInfoTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/TripInfoTest.cpp
 
 CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/TripInfoTest.cpp > CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/TripInfoTest.cpp > CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/TripInfoTest.cpp -o CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/TripInfoTest.cpp -o CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/newHope.dir/Test/TripInfoTest.cpp.o.provides.build: CMakeFiles/newHop
 
 CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o: ../Test/LuxuryCabTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/LuxuryCabTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/LuxuryCabTest.cpp
 
 CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/LuxuryCabTest.cpp > CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/LuxuryCabTest.cpp > CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/LuxuryCabTest.cpp -o CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/LuxuryCabTest.cpp -o CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/newHope.dir/Test/LuxuryCabTest.cpp.o.provides.build: CMakeFiles/newHo
 
 CMakeFiles/newHope.dir/Test/DriverTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/DriverTest.cpp.o: ../Test/DriverTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/newHope.dir/Test/DriverTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/DriverTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/DriverTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/newHope.dir/Test/DriverTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/DriverTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/DriverTest.cpp
 
 CMakeFiles/newHope.dir/Test/DriverTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/DriverTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/DriverTest.cpp > CMakeFiles/newHope.dir/Test/DriverTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/DriverTest.cpp > CMakeFiles/newHope.dir/Test/DriverTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/DriverTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/DriverTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/DriverTest.cpp -o CMakeFiles/newHope.dir/Test/DriverTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/DriverTest.cpp -o CMakeFiles/newHope.dir/Test/DriverTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/DriverTest.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/newHope.dir/Test/DriverTest.cpp.o.provides.build: CMakeFiles/newHope.
 
 CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o: ../Test/BFSPointTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/BFSPointTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/BFSPointTest.cpp
 
 CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/BFSPointTest.cpp > CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/BFSPointTest.cpp > CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/BFSPointTest.cpp -o CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/BFSPointTest.cpp -o CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/newHope.dir/Test/BFSPointTest.cpp.o.provides.build: CMakeFiles/newHop
 
 CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o: ../Test/PassengerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/PassengerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/PassengerTest.cpp
 
 CMakeFiles/newHope.dir/Test/PassengerTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/PassengerTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/PassengerTest.cpp > CMakeFiles/newHope.dir/Test/PassengerTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/PassengerTest.cpp > CMakeFiles/newHope.dir/Test/PassengerTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/PassengerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/PassengerTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/PassengerTest.cpp -o CMakeFiles/newHope.dir/Test/PassengerTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/PassengerTest.cpp -o CMakeFiles/newHope.dir/Test/PassengerTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/newHope.dir/Test/PassengerTest.cpp.o.provides.build: CMakeFiles/newHo
 
 CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o: ../Test/GameFlowTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/GameFlowTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/GameFlowTest.cpp
 
 CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/GameFlowTest.cpp > CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/GameFlowTest.cpp > CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/GameFlowTest.cpp -o CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/GameFlowTest.cpp -o CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/newHope.dir/Test/GameFlowTest.cpp.o.provides.build: CMakeFiles/newHop
 
 CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o: ../Test/TaxiCentreTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o -c /home/shmuel/ClionProjects/newHope/Test/TaxiCentreTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o -c /home/ran/ClionProjects/newHope2/Test/TaxiCentreTest.cpp
 
 CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Test/TaxiCentreTest.cpp > CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Test/TaxiCentreTest.cpp > CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.i
 
 CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Test/TaxiCentreTest.cpp -o CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Test/TaxiCentreTest.cpp -o CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.s
 
 CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o.provides.build: CMakeFiles/newH
 
 CMakeFiles/newHope.dir/Udp.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Udp.cpp.o: ../Udp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/newHope.dir/Udp.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Udp.cpp.o -c /home/shmuel/ClionProjects/newHope/Udp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/newHope.dir/Udp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Udp.cpp.o -c /home/ran/ClionProjects/newHope2/Udp.cpp
 
 CMakeFiles/newHope.dir/Udp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Udp.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Udp.cpp > CMakeFiles/newHope.dir/Udp.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Udp.cpp > CMakeFiles/newHope.dir/Udp.cpp.i
 
 CMakeFiles/newHope.dir/Udp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Udp.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Udp.cpp -o CMakeFiles/newHope.dir/Udp.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Udp.cpp -o CMakeFiles/newHope.dir/Udp.cpp.s
 
 CMakeFiles/newHope.dir/Udp.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/newHope.dir/Udp.cpp.o.provides.build: CMakeFiles/newHope.dir/Udp.cpp.
 
 CMakeFiles/newHope.dir/Socket.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/Socket.cpp.o: ../Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/newHope.dir/Socket.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Socket.cpp.o -c /home/shmuel/ClionProjects/newHope/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/newHope.dir/Socket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Socket.cpp.o -c /home/ran/ClionProjects/newHope2/Socket.cpp
 
 CMakeFiles/newHope.dir/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Socket.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/Socket.cpp > CMakeFiles/newHope.dir/Socket.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Socket.cpp > CMakeFiles/newHope.dir/Socket.cpp.i
 
 CMakeFiles/newHope.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Socket.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/Socket.cpp -o CMakeFiles/newHope.dir/Socket.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Socket.cpp -o CMakeFiles/newHope.dir/Socket.cpp.s
 
 CMakeFiles/newHope.dir/Socket.cpp.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/newHope.dir/Socket.cpp.o.provides.build: CMakeFiles/newHope.dir/Socke
 
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: CMakeFiles/newHope.dir/flags.make
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../untiteld3/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/newHope.dir/untiteld3/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/untiteld3/main.cpp.o -c /home/shmuel/ClionProjects/newHope/untiteld3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/newHope.dir/untiteld3/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/untiteld3/main.cpp.o -c /home/ran/ClionProjects/newHope2/untiteld3/main.cpp
 
 CMakeFiles/newHope.dir/untiteld3/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/untiteld3/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shmuel/ClionProjects/newHope/untiteld3/main.cpp > CMakeFiles/newHope.dir/untiteld3/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/untiteld3/main.cpp > CMakeFiles/newHope.dir/untiteld3/main.cpp.i
 
 CMakeFiles/newHope.dir/untiteld3/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/untiteld3/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shmuel/ClionProjects/newHope/untiteld3/main.cpp -o CMakeFiles/newHope.dir/untiteld3/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/untiteld3/main.cpp -o CMakeFiles/newHope.dir/untiteld3/main.cpp.s
 
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o.requires:
 
@@ -703,6 +703,30 @@ CMakeFiles/newHope.dir/untiteld3/main.cpp.o.provides: CMakeFiles/newHope.dir/unt
 .PHONY : CMakeFiles/newHope.dir/untiteld3/main.cpp.o.provides
 
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o.provides.build: CMakeFiles/newHope.dir/untiteld3/main.cpp.o
+
+
+CMakeFiles/newHope.dir/Clock.cpp.o: CMakeFiles/newHope.dir/flags.make
+CMakeFiles/newHope.dir/Clock.cpp.o: ../Clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/newHope.dir/Clock.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/newHope.dir/Clock.cpp.o -c /home/ran/ClionProjects/newHope2/Clock.cpp
+
+CMakeFiles/newHope.dir/Clock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newHope.dir/Clock.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ran/ClionProjects/newHope2/Clock.cpp > CMakeFiles/newHope.dir/Clock.cpp.i
+
+CMakeFiles/newHope.dir/Clock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newHope.dir/Clock.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ran/ClionProjects/newHope2/Clock.cpp -o CMakeFiles/newHope.dir/Clock.cpp.s
+
+CMakeFiles/newHope.dir/Clock.cpp.o.requires:
+
+.PHONY : CMakeFiles/newHope.dir/Clock.cpp.o.requires
+
+CMakeFiles/newHope.dir/Clock.cpp.o.provides: CMakeFiles/newHope.dir/Clock.cpp.o.requires
+	$(MAKE) -f CMakeFiles/newHope.dir/build.make CMakeFiles/newHope.dir/Clock.cpp.o.provides.build
+.PHONY : CMakeFiles/newHope.dir/Clock.cpp.o.provides
+
+CMakeFiles/newHope.dir/Clock.cpp.o.provides.build: CMakeFiles/newHope.dir/Clock.cpp.o
 
 
 # Object files for target newHope
@@ -733,7 +757,8 @@ newHope_OBJECTS = \
 "CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o" \
 "CMakeFiles/newHope.dir/Udp.cpp.o" \
 "CMakeFiles/newHope.dir/Socket.cpp.o" \
-"CMakeFiles/newHope.dir/untiteld3/main.cpp.o"
+"CMakeFiles/newHope.dir/untiteld3/main.cpp.o" \
+"CMakeFiles/newHope.dir/Clock.cpp.o"
 
 # External object files for target newHope
 newHope_EXTERNAL_OBJECTS =
@@ -765,6 +790,7 @@ newHope: CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.o
 newHope: CMakeFiles/newHope.dir/Udp.cpp.o
 newHope: CMakeFiles/newHope.dir/Socket.cpp.o
 newHope: CMakeFiles/newHope.dir/untiteld3/main.cpp.o
+newHope: CMakeFiles/newHope.dir/Clock.cpp.o
 newHope: CMakeFiles/newHope.dir/build.make
 newHope: lib/googletest-master/googlemock/gtest/libgtest.a
 newHope: lib/googletest-master/googlemock/gtest/libgtest_main.a
@@ -772,7 +798,7 @@ newHope: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 newHope: /usr/lib/x86_64-linux-gnu/libboost_system.so
 newHope: lib/googletest-master/googlemock/gtest/libgtest.a
 newHope: CMakeFiles/newHope.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable newHope"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable newHope"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/newHope.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -807,6 +833,7 @@ CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Test/TaxiCentreTest.cpp.
 CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Udp.cpp.o.requires
 CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Socket.cpp.o.requires
 CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/untiteld3/main.cpp.o.requires
+CMakeFiles/newHope.dir/requires: CMakeFiles/newHope.dir/Clock.cpp.o.requires
 
 .PHONY : CMakeFiles/newHope.dir/requires
 
@@ -815,6 +842,6 @@ CMakeFiles/newHope.dir/clean:
 .PHONY : CMakeFiles/newHope.dir/clean
 
 CMakeFiles/newHope.dir/depend:
-	cd /home/shmuel/ClionProjects/newHope/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shmuel/ClionProjects/newHope /home/shmuel/ClionProjects/newHope /home/shmuel/ClionProjects/newHope/cmake-build-debug /home/shmuel/ClionProjects/newHope/cmake-build-debug /home/shmuel/ClionProjects/newHope/cmake-build-debug/CMakeFiles/newHope.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ran/ClionProjects/newHope2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ran/ClionProjects/newHope2 /home/ran/ClionProjects/newHope2 /home/ran/ClionProjects/newHope2/cmake-build-debug /home/ran/ClionProjects/newHope2/cmake-build-debug /home/ran/ClionProjects/newHope2/cmake-build-debug/CMakeFiles/newHope.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/newHope.dir/depend
 

@@ -20,6 +20,9 @@ CMakeFiles/newHope.dir/Cab.cpp.o: ../Node.h
 CMakeFiles/newHope.dir/Cab.cpp.o: ../Point.h
 CMakeFiles/newHope.dir/Cab.cpp.o: ../TripInfo.h
 
+CMakeFiles/newHope.dir/Clock.cpp.o: ../Clock.cpp
+CMakeFiles/newHope.dir/Clock.cpp.o: ../Clock.h
+
 CMakeFiles/newHope.dir/Driver.cpp.o: ../BFSPoint.h
 CMakeFiles/newHope.dir/Driver.cpp.o: ../Bfs.h
 CMakeFiles/newHope.dir/Driver.cpp.o: ../Cab.h
@@ -41,9 +44,11 @@ CMakeFiles/newHope.dir/GameFlow.cpp.o: ../LuxuryCab.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Node.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Passenger.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Point.h
+CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Socket.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../StandartCab.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../TaxiCentre.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../TripInfo.h
+CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Udp.h
 
 CMakeFiles/newHope.dir/Grid.cpp.o: ../BFSPoint.h
 CMakeFiles/newHope.dir/Grid.cpp.o: ../Grid.cpp
@@ -469,12 +474,16 @@ CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../lib/googletest-master/googletest
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../BFSPoint.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Bfs.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Cab.h
+CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Driver.h
+CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../GameFlow.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Grid.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../LuxuryCab.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Node.h
+CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Passenger.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Point.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Socket.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../StandartCab.h
+CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../TaxiCentre.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../TripInfo.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../Udp.h
 CMakeFiles/newHope.dir/untiteld3/main.cpp.o: ../untiteld3/main.cpp

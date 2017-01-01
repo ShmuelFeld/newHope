@@ -8,515 +8,521 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-master\;CMake Files\lib\googletest-master\googlemock\;CMake Files\lib\googletest-master\googletest\;CMake Files\lib\googletest-master\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="newHope">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/newHope" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/newHope" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DHAS_BOOST"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 newHope"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 newHope"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="newHope/fast">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/newHope" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/newHope" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DHAS_BOOST"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 newHope/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 newHope/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shmuel/ClionProjects/newHope/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ran/ClionProjects/newHope2/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/BFSPoint.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/BFSPoint.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/BFSPoint.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/BFSPoint.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Bfs.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Bfs.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Bfs.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Bfs.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Cab.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Cab.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Cab.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Cab.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Driver.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Clock.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Driver.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Clock.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/GameFlow.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Driver.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/GameFlow.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Driver.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Grid.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/GameFlow.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Grid.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/GameFlow.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/LuxuryCab.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Grid.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/LuxuryCab.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Grid.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Node.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/LuxuryCab.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Node.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/LuxuryCab.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Passenger.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Node.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Passenger.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Node.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Point.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Passenger.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Point.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Passenger.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Socket.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Point.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Socket.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Point.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/StandartCab.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Socket.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/StandartCab.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Socket.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/TaxiCentre.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/StandartCab.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/TaxiCentre.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/StandartCab.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/BFSPointTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/TaxiCentre.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/BfsTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/TaxiCentre.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/DriverTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/BFSPointTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/GameFlowTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/BfsTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/GridTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/DriverTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/LuxuryCabTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/GameFlowTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/PassengerTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/GridTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/PointTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/LuxuryCabTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/StandartCabTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/PassengerTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/TaxiCentreTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/PointTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Test/TripInfoTest.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/StandartCabTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/TripInfo.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/TaxiCentreTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/TripInfo.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Test/TripInfoTest.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Udp.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/TripInfo.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/Udp.h">
+		<Unit filename="/home/ran/ClionProjects/newHope2/TripInfo.h">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/ran/ClionProjects/newHope2/Udp.cpp">
+			<Option target="newHope"/>
+		</Unit>
+		<Unit filename="/home/ran/ClionProjects/newHope2/Udp.h">
+			<Option target="newHope"/>
+		</Unit>
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest-all.cc">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/src/gtest_main.cc">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/untiteld3/main.cpp">
+		<Unit filename="/home/ran/ClionProjects/newHope2/untiteld3/main.cpp">
 			<Option target="newHope"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/shmuel/ClionProjects/newHope/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/ran/ClionProjects/newHope2/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
 	</Project>

@@ -3,7 +3,6 @@
 //
 
 #include "Clock.h"
-namespace std{
 
     Clock::Clock() {
         counter = 0;
@@ -12,4 +11,3 @@ namespace std{
     void Clock::increase() {
         counter++;
     }
-}

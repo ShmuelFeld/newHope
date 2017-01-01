@@ -23,6 +23,21 @@ namespace std {
         myRoad = NULL;
         myPassenger = NULL;
     }
+    Driver::Driver(int identity, int a, char ms, int e, int vId) {
+        clients = 0;
+        satisfaction = 0;
+        id = identity;
+        age = a;
+        exp = e;
+        maritalStatus = myMaritalStatus(ms);
+        cab = NULL;
+        vehicleId = vId;
+        currentLocation = NULL;
+        haveAPassengers = false;
+        amIOccupied = false;
+        myRoad = NULL;
+        myPassenger = NULL;
+    }
     Driver::Driver() {
         clients = 0;
         satisfaction = 0;

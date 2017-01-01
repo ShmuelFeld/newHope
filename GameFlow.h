@@ -48,6 +48,15 @@ public:
      * @param numOfObstacles
      */
     void createObstacles(int numOfObstacles);
+    /**
+     * * creates a cab uppon request
+     * @param type int
+     * @param id int
+     * @param man char manufator
+     * @param colo char color
+     */
+    Cab* createCab(int type, int id, char man, char colo);
 };
+
 
 #endif /* GAMEFLOW_H_ */

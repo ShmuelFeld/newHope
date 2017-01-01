@@ -278,23 +278,23 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/shmuel/ClionProjects/newHope/BFSPoint.cpp
+/home/ran/ClionProjects/newHope2/BFSPoint.cpp
 BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 Node.h
-/home/shmuel/ClionProjects/newHope/Node.h
+/home/ran/ClionProjects/newHope2/Node.h
 Point.h
-/home/shmuel/ClionProjects/newHope/Point.h
+/home/ran/ClionProjects/newHope2/Point.h
 boost/serialization/vector.hpp
 -
 
-/home/shmuel/ClionProjects/newHope/Bfs.cpp
+/home/ran/ClionProjects/newHope2/Bfs.cpp
 Bfs.h
-/home/shmuel/ClionProjects/newHope/Bfs.h
+/home/ran/ClionProjects/newHope2/Bfs.h
 
-/home/shmuel/ClionProjects/newHope/Bfs.h
+/home/ran/ClionProjects/newHope2/Bfs.h
 list
 -
 queue
@@ -304,83 +304,119 @@ vector
 stack
 -
 BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 
-/home/shmuel/ClionProjects/newHope/Cab.cpp
+/home/ran/ClionProjects/newHope2/Cab.cpp
 Cab.h
-/home/shmuel/ClionProjects/newHope/Cab.h
+/home/ran/ClionProjects/newHope2/Cab.h
 
-/home/shmuel/ClionProjects/newHope/Cab.h
+/home/ran/ClionProjects/newHope2/Cab.h
 TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 
-/home/shmuel/ClionProjects/newHope/Driver.cpp
+/home/ran/ClionProjects/newHope2/Clock.cpp
+Clock.h
+/home/ran/ClionProjects/newHope2/Clock.h
+
+/home/ran/ClionProjects/newHope2/Clock.h
+
+/home/ran/ClionProjects/newHope2/Driver.cpp
 Driver.h
-/home/shmuel/ClionProjects/newHope/Driver.h
+/home/ran/ClionProjects/newHope2/Driver.h
 
-/home/shmuel/ClionProjects/newHope/Driver.h
+/home/ran/ClionProjects/newHope2/Driver.h
 string
 -
 TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 Cab.h
-/home/shmuel/ClionProjects/newHope/Cab.h
+/home/ran/ClionProjects/newHope2/Cab.h
 BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 Bfs.h
-/home/shmuel/ClionProjects/newHope/Bfs.h
+/home/ran/ClionProjects/newHope2/Bfs.h
 Passenger.h
-/home/shmuel/ClionProjects/newHope/Passenger.h
+/home/ran/ClionProjects/newHope2/Passenger.h
 
-/home/shmuel/ClionProjects/newHope/GameFlow.cpp
+/home/ran/ClionProjects/newHope2/GameFlow.cpp
+fstream
+-
+sstream
+-
+boost/archive/text_oarchive.hpp
+-
+boost/archive/text_iarchive.hpp
+-
+boost/tokenizer.hpp
+-
+boost/algorithm/string/predicate.hpp
+-
+boost/lexical_cast.hpp
+-
+boost/assign/list_of.hpp
+-
+boost/algorithm/string.hpp
+-
+boost/iostreams/device/back_inserter.hpp
+-
+boost/iostreams/stream.hpp
+-
+boost/archive/binary_oarchive.hpp
+-
+boost/archive/binary_iarchive.hpp
+-
 GameFlow.h
-/home/shmuel/ClionProjects/newHope/GameFlow.h
+/home/ran/ClionProjects/newHope2/GameFlow.h
+boost/lexical_cast.hpp
+-
 StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 LuxuryCab.h
-/home/shmuel/ClionProjects/newHope/LuxuryCab.h
+/home/ran/ClionProjects/newHope2/LuxuryCab.h
+Udp.h
+/home/ran/ClionProjects/newHope2/Udp.h
 
-/home/shmuel/ClionProjects/newHope/GameFlow.h
+/home/ran/ClionProjects/newHope2/GameFlow.h
 TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 TaxiCentre.h
-/home/shmuel/ClionProjects/newHope/TaxiCentre.h
+/home/ran/ClionProjects/newHope2/TaxiCentre.h
 Passenger.h
-/home/shmuel/ClionProjects/newHope/Passenger.h
+/home/ran/ClionProjects/newHope2/Passenger.h
 Driver.h
-/home/shmuel/ClionProjects/newHope/Driver.h
+/home/ran/ClionProjects/newHope2/Driver.h
 StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 LuxuryCab.h
-/home/shmuel/ClionProjects/newHope/LuxuryCab.h
+/home/ran/ClionProjects/newHope2/LuxuryCab.h
 
-/home/shmuel/ClionProjects/newHope/Grid.cpp
+/home/ran/ClionProjects/newHope2/Grid.cpp
 Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 vector
 -
 boost/serialization/vector.hpp
 -
 
-/home/shmuel/ClionProjects/newHope/LuxuryCab.cpp
+/home/ran/ClionProjects/newHope2/LuxuryCab.cpp
 LuxuryCab.h
-/home/shmuel/ClionProjects/newHope/LuxuryCab.h
+/home/ran/ClionProjects/newHope2/LuxuryCab.h
 
-/home/shmuel/ClionProjects/newHope/LuxuryCab.h
+/home/ran/ClionProjects/newHope2/LuxuryCab.h
 StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 
-/home/shmuel/ClionProjects/newHope/Node.cpp
+/home/ran/ClionProjects/newHope2/Node.cpp
 Node.h
-/home/shmuel/ClionProjects/newHope/Node.h
+/home/ran/ClionProjects/newHope2/Node.h
 
-/home/shmuel/ClionProjects/newHope/Node.h
+/home/ran/ClionProjects/newHope2/Node.h
 string
 -
 vector
@@ -390,31 +426,31 @@ boost/serialization/access.hpp
 boost/serialization/vector.hpp
 -
 
-/home/shmuel/ClionProjects/newHope/Passenger.cpp
+/home/ran/ClionProjects/newHope2/Passenger.cpp
 Passenger.h
-/home/shmuel/ClionProjects/newHope/Passenger.h
+/home/ran/ClionProjects/newHope2/Passenger.h
 
-/home/shmuel/ClionProjects/newHope/Passenger.h
+/home/ran/ClionProjects/newHope2/Passenger.h
 BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 
-/home/shmuel/ClionProjects/newHope/Point.cpp
+/home/ran/ClionProjects/newHope2/Point.cpp
 Point.h
-/home/shmuel/ClionProjects/newHope/Point.h
+/home/ran/ClionProjects/newHope2/Point.h
 
-/home/shmuel/ClionProjects/newHope/Point.h
+/home/ran/ClionProjects/newHope2/Point.h
 iostream
 -
 boost/serialization/access.hpp
 -
 
-/home/shmuel/ClionProjects/newHope/Socket.cpp
+/home/ran/ClionProjects/newHope2/Socket.cpp
 Socket.h
-/home/shmuel/ClionProjects/newHope/Socket.h
+/home/ran/ClionProjects/newHope2/Socket.h
 unistd.h
 -
 
-/home/shmuel/ClionProjects/newHope/Socket.h
+/home/ran/ClionProjects/newHope2/Socket.h
 sys/socket.h
 -
 netinet/in.h
@@ -428,141 +464,141 @@ iostream
 string
 -
 
-/home/shmuel/ClionProjects/newHope/StandartCab.cpp
+/home/ran/ClionProjects/newHope2/StandartCab.cpp
 StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 Cab.h
-/home/shmuel/ClionProjects/newHope/Cab.h
+/home/ran/ClionProjects/newHope2/Cab.h
 
-/home/shmuel/ClionProjects/newHope/TaxiCentre.cpp
+/home/ran/ClionProjects/newHope2/TaxiCentre.cpp
 TaxiCentre.h
-/home/shmuel/ClionProjects/newHope/TaxiCentre.h
+/home/ran/ClionProjects/newHope2/TaxiCentre.h
 
-/home/shmuel/ClionProjects/newHope/TaxiCentre.h
+/home/ran/ClionProjects/newHope2/TaxiCentre.h
 Driver.h
-/home/shmuel/ClionProjects/newHope/Driver.h
+/home/ran/ClionProjects/newHope2/Driver.h
 Cab.h
-/home/shmuel/ClionProjects/newHope/Cab.h
+/home/ran/ClionProjects/newHope2/Cab.h
 TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 vector
 -
 
-/home/shmuel/ClionProjects/newHope/Test/BFSPointTest.cpp
+/home/ran/ClionProjects/newHope2/Test/BFSPointTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 
-/home/shmuel/ClionProjects/newHope/Test/BfsTest.cpp
+/home/ran/ClionProjects/newHope2/Test/BfsTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../Bfs.h
-/home/shmuel/ClionProjects/newHope/Bfs.h
+/home/ran/ClionProjects/newHope2/Bfs.h
 ../Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 
-/home/shmuel/ClionProjects/newHope/Test/DriverTest.cpp
+/home/ran/ClionProjects/newHope2/Test/DriverTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../Driver.h
-/home/shmuel/ClionProjects/newHope/Driver.h
+/home/ran/ClionProjects/newHope2/Driver.h
 ../Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 ../StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 ../LuxuryCab.h
-/home/shmuel/ClionProjects/newHope/LuxuryCab.h
+/home/ran/ClionProjects/newHope2/LuxuryCab.h
 ../Cab.h
-/home/shmuel/ClionProjects/newHope/Cab.h
+/home/ran/ClionProjects/newHope2/Cab.h
 
-/home/shmuel/ClionProjects/newHope/Test/GameFlowTest.cpp
+/home/ran/ClionProjects/newHope2/Test/GameFlowTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../GameFlow.h
-/home/shmuel/ClionProjects/newHope/GameFlow.h
+/home/ran/ClionProjects/newHope2/GameFlow.h
 ../TaxiCentre.h
-/home/shmuel/ClionProjects/newHope/TaxiCentre.h
+/home/ran/ClionProjects/newHope2/TaxiCentre.h
 
-/home/shmuel/ClionProjects/newHope/Test/GridTest.cpp
+/home/ran/ClionProjects/newHope2/Test/GridTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 ../Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 
-/home/shmuel/ClionProjects/newHope/Test/LuxuryCabTest.cpp
+/home/ran/ClionProjects/newHope2/Test/LuxuryCabTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../LuxuryCab.h
-/home/shmuel/ClionProjects/newHope/LuxuryCab.h
+/home/ran/ClionProjects/newHope2/LuxuryCab.h
 
-/home/shmuel/ClionProjects/newHope/Test/PassengerTest.cpp
+/home/ran/ClionProjects/newHope2/Test/PassengerTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../Passenger.h
-/home/shmuel/ClionProjects/newHope/Passenger.h
+/home/ran/ClionProjects/newHope2/Passenger.h
 
-/home/shmuel/ClionProjects/newHope/Test/PointTest.cpp
+/home/ran/ClionProjects/newHope2/Test/PointTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../Point.h
-/home/shmuel/ClionProjects/newHope/Point.h
+/home/ran/ClionProjects/newHope2/Point.h
 
-/home/shmuel/ClionProjects/newHope/Test/StandartCabTest.cpp
+/home/ran/ClionProjects/newHope2/Test/StandartCabTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 
-/home/shmuel/ClionProjects/newHope/Test/TaxiCentreTest.cpp
+/home/ran/ClionProjects/newHope2/Test/TaxiCentreTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../TaxiCentre.h
-/home/shmuel/ClionProjects/newHope/TaxiCentre.h
+/home/ran/ClionProjects/newHope2/TaxiCentre.h
 ../Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 ../StandartCab.h
-/home/shmuel/ClionProjects/newHope/StandartCab.h
+/home/ran/ClionProjects/newHope2/StandartCab.h
 
-/home/shmuel/ClionProjects/newHope/Test/TripInfoTest.cpp
+/home/ran/ClionProjects/newHope2/Test/TripInfoTest.cpp
 gtest/gtest.h
-/home/shmuel/ClionProjects/newHope/Test/gtest/gtest.h
+/home/ran/ClionProjects/newHope2/Test/gtest/gtest.h
 ../TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 ../Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 
-/home/shmuel/ClionProjects/newHope/TripInfo.cpp
+/home/ran/ClionProjects/newHope2/TripInfo.cpp
 TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
 BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 Bfs.h
-/home/shmuel/ClionProjects/newHope/Bfs.h
+/home/ran/ClionProjects/newHope2/Bfs.h
 boost/serialization/access.hpp
 -
 
-/home/shmuel/ClionProjects/newHope/Udp.cpp
+/home/ran/ClionProjects/newHope2/Udp.cpp
 Udp.h
-/home/shmuel/ClionProjects/newHope/Udp.h
+/home/ran/ClionProjects/newHope2/Udp.h
 
-/home/shmuel/ClionProjects/newHope/Udp.h
+/home/ran/ClionProjects/newHope2/Udp.h
 Socket.h
-/home/shmuel/ClionProjects/newHope/Socket.h
+/home/ran/ClionProjects/newHope2/Socket.h
 
-/home/shmuel/ClionProjects/newHope/untiteld3/main.cpp
+/home/ran/ClionProjects/newHope2/untiteld3/main.cpp
 gtest/gtest.h
 -
 ../Udp.h
-/home/shmuel/ClionProjects/newHope/Udp.h
+/home/ran/ClionProjects/newHope2/Udp.h
 ../BFSPoint.h
-/home/shmuel/ClionProjects/newHope/BFSPoint.h
+/home/ran/ClionProjects/newHope2/BFSPoint.h
 iostream
 -
 fstream
@@ -592,9 +628,13 @@ boost/archive/binary_oarchive.hpp
 boost/archive/binary_iarchive.hpp
 -
 ../TripInfo.h
-/home/shmuel/ClionProjects/newHope/TripInfo.h
+/home/ran/ClionProjects/newHope2/TripInfo.h
+../Driver.h
+/home/ran/ClionProjects/newHope2/Driver.h
+../GameFlow.h
+/home/ran/ClionProjects/newHope2/GameFlow.h
 ../Grid.h
-/home/shmuel/ClionProjects/newHope/Grid.h
+/home/ran/ClionProjects/newHope2/Grid.h
 unistd.h
 -
 

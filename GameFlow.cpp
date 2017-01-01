@@ -4,7 +4,21 @@
  *  Created on: Nov 30, 2016
  *      Author: ran
  */
+#include <fstream>
+#include <sstream>
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/text_iarchive.hpp>
+#include <boost/tokenizer.hpp>
+#include <boost/algorithm/string/predicate.hpp>
+#include <boost/lexical_cast.hpp>
+#include <boost/assign/list_of.hpp>
+#include <boost/algorithm/string.hpp>
+#include <boost/iostreams/device/back_inserter.hpp>
+#include <boost/iostreams/stream.hpp>
+#include <boost/archive/binary_oarchive.hpp>
+#include <boost/archive/binary_iarchive.hpp>
 #include "GameFlow.h"
+#include <boost/lexical_cast.hpp>
 #include "StandartCab.h"
 #include "LuxuryCab.h"
 #include "Udp.h"
@@ -35,18 +49,36 @@ int GameFlow::menu() {
 		cin >> command;
 		switch (command) {
 			case 1: {
-				int numOfDrivers,portNum;
-                int i = 0;
+				int numOfDrivers,portNum = 5555, i = 0;
 				cin >> numOfDrivers;
                 while (i != numOfDrivers) {
                     Udp udp(1, portNum - i);
                     udp.initialize();
                     char buffer[1024];
                     udp.reciveData(buffer, sizeof(buffer));
-                    cout<< buffer <<endl;
+                    StandartCab *c = new StandartCab
+                            (boost::lexical_cast<int>(buffer), 'F', 'R');
+                    std::string serial_str;
+                    boost::iostreams::back_insert_device<std::string>
+                            inserter(serial_str);
+                    boost::iostreams::stream<boost::iostreams
+                    ::back_insert_device<std::string> > s(inserter);
+                    boost::archive::binary_oarchive oa(s);
+                    oa << c;
+                    s.flush();
+                    udp.sendData(serial_str);
+                    std::string serial_str2;
+                    boost::iostreams::back_insert_device<std::string>
+                            inserter2(serial_str2);
+                    boost::iostreams::stream<boost::iostreams
+                    ::back_insert_device<std::string> > s2(inserter2);
+                    boost::archive::binary_oarchive oa2(s2);
+                    oa2 << g;
+                    s2.flush();
+                    udp.sendData(serial_str2);
                     i++;
-                    //udp.sendData(serial_str);
                 }
+                break;
 			}
 			case 2: {
 				int id, x_s, y_s, x_e, y_e, pass;
@@ -103,4 +135,13 @@ void GameFlow::createObstacles(int numOfObstacles) {
 		cin >> x >> space >> y;
 		g->search(x, y)->setValid();
 	}
+}
+
+Cab* GameFlow::createCab(int type, int id, char man, char colo) {
+    if (type == 1) {
+        return (Cab*)(new StandartCab(id, man, colo));
+    }
+    else {
+        return (Cab*)new LuxuryCab(id, man, colo);
+    }
 }
