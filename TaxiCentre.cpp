@@ -57,7 +57,7 @@ void TaxiCentre::moveAll() {
        }
     }
 }
-void TaxiCentre::assignCabToDriver() {
+Cab* TaxiCentre::assignCabToDriver() {
     for(int i = 0; i < drivers.size(); i++) {
         for (int j = 0; j < cabs.size(); ++j) {
             if (drivers.at((unsigned long)i)->myVehicleId()
@@ -65,6 +65,7 @@ void TaxiCentre::assignCabToDriver() {
                 Cab *s = cabs.at((unsigned long)j);
                 drivers.at((unsigned long)i)->setCab(s);
                 takenCabs.push_back(s);
+                return s;
             }
         }
     }
@@ -84,15 +85,18 @@ void TaxiCentre::addRide(TripInfo *trp) {
     tripinfo.push_back(trp);
 }
 
-void TaxiCentre::matchRide() {
+TripInfo* TaxiCentre::matchRide(int time) {
     for (int i = 0; i < drivers.size(); i++) {
         Driver *d = drivers.at((unsigned long)i);
         for (int l = 0; l < tripinfo.size(); l++) {
             if (d->getLocation()->equal(tripinfo.at
                     ((unsigned long)l)->getStart())) {
-                d->setTripInfo(tripinfo.at((unsigned long)l));
-                d->setOccupied();
-                break;
+                if (time = tripinfo.at
+                        ((unsigned long)l)->getTripTime()) {
+                    d->setTripInfo(tripinfo.at((unsigned long) l));
+                    d->setOccupied();
+                    return tripinfo.at((unsigned long) l);
+                }
             }
         }
     }

@@ -22,6 +22,10 @@ public:
      * increase counter by one.
      */
     void increase();
+    /**
+     * return time.
+     */
+    int getVlue();
 };
 
 

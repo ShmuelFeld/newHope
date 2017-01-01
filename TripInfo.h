@@ -20,6 +20,7 @@ namespace std {
         BFSPoint* start;
         BFSPoint* end;
         double tariff;
+        int time;
     public:
         /**
          *
@@ -29,7 +30,8 @@ namespace std {
          * @param numOfPassengers number of passenger in the trip.
          * @param tariff of the ride.
          */
-        TripInfo(int id, BFSPoint* st, BFSPoint *en, int numOfPassengers, double tariff);
+        TripInfo(int id, BFSPoint* st, BFSPoint *en, int numOfPassengers,
+                 double tariff, int time);
         /**
          * default constructor.
          */
@@ -64,7 +66,11 @@ namespace std {
          */
         double getTariff();
         /**
-         *
+         * @return the start time for this trip.
+         */
+        int getTripTime();
+        /**
+         * Serialize
          */
         friend class boost::serialization::access;
         template<class Archive>

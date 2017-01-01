@@ -33,6 +33,6 @@ using namespace boost::archive;
 std::stringstream ss;
 
 int main(int argc, char* argv[]) {
-    GameFlow g;
-    g.menu();
+    GameFlow *g = new GameFlow();
+    g->menu();
 }

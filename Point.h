@@ -69,7 +69,6 @@ namespace std {
          */
         bool operator!=(const Point& point)const;
         friend class boost::serialization::access;
-
         template<class Archive>
         void serialize(Archive &ar, const unsigned int version)
         {

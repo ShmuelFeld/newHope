@@ -11,3 +11,7 @@
     void Clock::increase() {
         counter++;
     }
+    int Clock::getVlue() {
+        return counter;
+    }
+}

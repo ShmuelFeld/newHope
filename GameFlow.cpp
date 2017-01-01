@@ -22,6 +22,7 @@
 #include "StandartCab.h"
 #include "LuxuryCab.h"
 #include "Udp.h"
+#include "Clock.h"
 
 using namespace std;
 
@@ -36,6 +37,7 @@ void GameFlow::momentPassed() {
 }
 
 int GameFlow::menu() {
+    Clock *clock = new Clock();
     TaxiCentre *c = new TaxiCentre();
 	int x_grid, y_grid, numOfObstacles, command;
 	cin >> x_grid >> y_grid >> numOfObstacles;
@@ -56,41 +58,41 @@ int GameFlow::menu() {
                     udp.initialize();
                     char buffer[1024];
                     udp.reciveData(buffer, sizeof(buffer));
-                    StandartCab *c = new StandartCab
-                            (boost::lexical_cast<int>(buffer), 'F', 'R');
+                    Cab *cc = c->assignCabToDriver(); //checkkkkkkk
                     std::string serial_str;
                     boost::iostreams::back_insert_device<std::string>
                             inserter(serial_str);
                     boost::iostreams::stream<boost::iostreams
                     ::back_insert_device<std::string> > s(inserter);
                     boost::archive::binary_oarchive oa(s);
-                    oa << c;
+                    oa << cc;
                     s.flush();
                     udp.sendData(serial_str);
-                    std::string serial_str2;
+                    std::string str2;
+                    Grid *g = new Grid(5,5);
                     boost::iostreams::back_insert_device<std::string>
-                            inserter2(serial_str2);
+                            inserter2(str2);
                     boost::iostreams::stream<boost::iostreams
                     ::back_insert_device<std::string> > s2(inserter2);
                     boost::archive::binary_oarchive oa2(s2);
                     oa2 << g;
                     s2.flush();
-                    udp.sendData(serial_str2);
+                    udp.sendData(str2);
                     i++;
                 }
                 break;
 			}
 			case 2: {
-				int id, x_s, y_s, x_e, y_e, pass;
+				int id, x_s, y_s, x_e, y_e, pass, TripTIme;
 				char space;
 				double tariff;
 				cin >> id >> space >> x_s >> space >> y_s
 					>> space >> x_e >> space >> y_e >> space
-					>> pass >> space >> tariff ;
+					>> pass >> space >> tariff >> space >> TripTIme ;
 				BFSPoint start(x_s, y_s);
                 BFSPoint end(x_e, y_e);
 				ti = new TripInfo(id,(BFSPoint *)bfs.path(root, &start),
-                                  (BFSPoint *)bfs.path(root, &end), pass, tariff);
+                                  (BFSPoint *)bfs.path(root, &end), pass, tariff, TripTIme);
 				c->addRide(ti);
 				break;
 			}
@@ -115,16 +117,23 @@ int GameFlow::menu() {
 				c->printLoc(driverId);
 				break;
 			}
-			case 6:
-				c->assignCabToDriver();
-				c->matchRide();
-				c->moveAll();
-				break;
-			case 7:
+			case 6: {
+                c->matchRide(clock->getVlue());
+                c->moveAll();
+                break;
+            }
+			case 7: {
                 delete c;
-				return 0;
-			default:
-				return 1;
+                return 0;
+                default:
+                    return 1;
+            }
+            case 9: {
+                delete c;
+                return 0;
+                default:
+                    return 1;
+            }
 		}
 	}
 }

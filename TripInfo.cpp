@@ -9,13 +9,14 @@
 
 namespace std {
     TripInfo::TripInfo(int ride_id, BFSPoint* st, BFSPoint *en,
-                       int numOfPassengers, double ride_tariff) {
+                       int numOfPassengers, double ride_tariff, int t) {
         start = st;
         end = en;
         passengers = numOfPassengers;
         id = ride_id;
         meter = 0;
         tariff = ride_tariff;
+        time = t;
     }
     TripInfo::TripInfo() {
         start = NULL;
@@ -46,6 +47,9 @@ TripInfo::~TripInfo() {
     }
     double TripInfo::getTariff() {
         return tariff;
+    }
+    int TripInfo::getTripTime() {
+        return this->time;
     }
 
 } /* namespace std */

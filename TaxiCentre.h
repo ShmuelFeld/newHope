@@ -50,8 +50,7 @@ public:
      * @param color is the color of the cab;
      */
     //assign free cabs to free drivers.
-    void assignCabToDriver();
-
+    Cab* assignCabToDriver();
     /**
      * add Cab to the listener list.
      * @param c is the new driver.
@@ -74,7 +73,7 @@ public:
     /**
      * match for each driver ride.
      */
-    void matchRide();
+    TripInfo* matchRide(int time);
 };
 
 #endif /* TAXICENTRE_H_ */
