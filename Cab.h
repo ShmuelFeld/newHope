@@ -8,10 +8,13 @@
 #ifndef CAB_H_
 #define CAB_H_
 #include "TripInfo.h"
+#include <boost/serialization/assume_abstract.hpp>
+#include <boost/serialization/base_object.hpp>
 /**
  * enum class of the cab's color.
  */
 enum class Color{
+    DEFAULT = 0,
     RED,
     BLUE,
     GREEN,
@@ -22,6 +25,7 @@ enum class Color{
  * enum class of the cab's manufacture.
  */
 enum class Manufacture{
+    DEFAULT = 0,
     HONDA,
     SUBARO,
     TESLA,
@@ -32,7 +36,14 @@ namespace std {
  * interface of cab.
  * every kind of cab needs to implement this interface.
  */
+
     class Cab {
+    protected:
+        int id;
+        long kilometerPassed;
+        Manufacture manu;
+        Color color;
+        BFSPoint *curruentLocation;
     public:
         /**
          * default constructor.
@@ -64,12 +75,21 @@ namespace std {
          * @return the vehicle id.
          */
         virtual int getID() = 0;
+        virtual BFSPoint* drive(std::stack<Node*>* myWay) = 0;
+        virtual BFSPoint* myLocation() = 0;
+        virtual void setMyLocation(BFSPoint *myLoc) = 0;
         friend class boost::serialization::access;
         template<class Archive>
         void serialize(Archive &ar, const unsigned int version)
-        {}
+        {
+            ar & id;
+            ar & manu;
+            ar & color;
+            ar & kilometerPassed;
+        }
     };
 
-} /* namespace std */
-
+}
+/* namespace std */
+BOOST_SERIALIZATION_ASSUME_ABSTRACT(Cab);
 #endif /* CAB_H_ */

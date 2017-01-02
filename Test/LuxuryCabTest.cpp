@@ -34,7 +34,7 @@ public:
         p2 = new BFSPoint(3,9);
         p3 = new BFSPoint(8,9);
         lc = new LuxuryCab(id, h, color);
-        ti = new TripInfo(id,p1, p2, 2, 20);
+        ti = new TripInfo(id,p1, p2, 2, 20, 0);
     }
     ~LuxuryCabTest() {
         delete lc, ti, p1,p2,p3;

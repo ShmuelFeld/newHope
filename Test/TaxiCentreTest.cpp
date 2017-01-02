@@ -66,8 +66,8 @@ TEST_F(TaxiCentreTest, moveAll) {
     BFSPoint *root = g->root();
     BFSPoint en(2,1);
     BFSPoint en2(4,5);
-    TripInfo ti(id2, root, &en, passngers, 20);
-    TripInfo ti2(id2, root, &en2, passngers, 20);
+    TripInfo ti(id2, root, &en, passngers, 20, 0);
+    TripInfo ti2(id2, root, &en2, passngers, 20, 0);
     Driver d4(1, 25, 'M', 0, 1, g->root());
     d4.setTripInfo(&ti);
     d4.setCab((Cab *)c1);

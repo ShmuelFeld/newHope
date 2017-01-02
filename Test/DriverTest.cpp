@@ -45,9 +45,9 @@ public:
         lc = new LuxuryCab(1, 'F', 'B');
         id1 = 0;
         id2 = 1;
-        ti = new TripInfo(id1,st, en, 2, 20);
-        ti2 = new TripInfo(id2,st, en2, 2, 20);
-        t3 = new TripInfo(id2, en, en2,2,20);
+        ti = new TripInfo(id1,st, en, 2, 20, 0);
+        ti2 = new TripInfo(id2,st, en2, 2, 20, 0);
+        t3 = new TripInfo(id2, en, en2,2,20, 0);
     }
     ~DriverTest() {
         delete grid, driver1, driver2, ti, ti2, en, en2, sc,lc;

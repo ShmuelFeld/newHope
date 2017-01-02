@@ -36,6 +36,7 @@ CMakeFiles/newHope.dir/Driver.cpp.o: ../TripInfo.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../BFSPoint.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Bfs.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Cab.h
+CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Clock.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../Driver.h
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../GameFlow.cpp
 CMakeFiles/newHope.dir/GameFlow.cpp.o: ../GameFlow.h

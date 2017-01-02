@@ -35,5 +35,22 @@ namespace std {
 	int LuxuryCab::getID() {
 		return id;
 	}
-
+	BFSPoint* LuxuryCab::drive(std::stack<Node*>* myWay) {
+		if (myWay->size() > 1) {
+			myWay->pop();
+			setMyLocation((BFSPoint*)myWay->top());
+			myWay->pop();
+		}
+		else if(myWay->size() == 1) {
+			setMyLocation((BFSPoint*)myWay->top());
+			myWay->pop();
+		}
+		return curruentLocation;
+	}
+	BFSPoint* LuxuryCab::myLocation() {
+		return curruentLocation;
+	}
+	void LuxuryCab::setMyLocation(BFSPoint *myLoc) {
+		curruentLocation = myLoc;
+	}
 } /* namespace std */

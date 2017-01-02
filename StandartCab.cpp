@@ -6,14 +6,12 @@
  */
 
 #include "StandartCab.h"
-
 namespace std {
 
     StandartCab::StandartCab(int i, char man, char col) {
         id = i;
         manu = myManufacture(man);
         color = myColor(col);
-
     }
     StandartCab::StandartCab(){
         id = 0;
@@ -49,7 +47,8 @@ namespace std {
                 return Color::BLUE;
             case 'R':
                 return Color::RED;
-            default:break;
+            default:
+                return  Color ::DEFAULT;
         }
     }
     Manufacture StandartCab::myManufacture(char mf) {
@@ -62,7 +61,22 @@ namespace std {
                 return Manufacture ::TESLA;
             case 'S':
                 return Manufacture ::SUBARO;
-            default:break;
+            default:
+                return  Manufacture::DEFAULT;
         }
     }
+    BFSPoint* StandartCab::drive(std::stack<Node*>* myWay) {
+        if (myWay->size() != 0) {
+            curruentLocation = (BFSPoint *) myWay->top();
+            myWay->pop();
+        }
+        return curruentLocation;
+    }
+    BFSPoint* StandartCab::myLocation() {
+        return curruentLocation;
+    }
+    void StandartCab::setMyLocation(BFSPoint *myLoc) {
+        curruentLocation = myLoc;
+    }
 }
+BOOST_CLASS_EXPORT(Cab)

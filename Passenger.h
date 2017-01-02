@@ -46,6 +46,14 @@ public:
      * @return the num of the passengers.
      */
     int getNumOfPassengers();
+    friend class boost::serialization::access;
+    template<class Archive>
+    void serialize(Archive &ar, const unsigned int version)
+    {
+        ar & start;
+        ar & end;
+        ar & numOfPassengers;
+    }
 };
 
 #endif /* PASSENGER_H_ */

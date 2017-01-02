@@ -8,14 +8,26 @@
 #ifndef STANDARTCAB_H_
 #define STANDARTCAB_H_
 #include "Cab.h"
+#include <iostream>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/text_iarchive.hpp>
+#include <boost/tokenizer.hpp>
+#include <boost/algorithm/string/predicate.hpp>
+#include <boost/lexical_cast.hpp>
+#include <boost/assign/list_of.hpp>
+#include <boost/algorithm/string.hpp>
+#include <boost/iostreams/device/back_inserter.hpp>
+#include <boost/iostreams/stream.hpp>
+#include <boost/archive/binary_oarchive.hpp>
+#include <boost/archive/binary_iarchive.hpp>
+#include <boost/serialization/export.hpp>
+
 namespace std {
 
-    class StandartCab:Cab {
-    private:
-        int id;
-        long kilometerPassed;
-        Manufacture manu;
-        Color color;
+    class StandartCab:public Cab {
     public:
         /**
          * constructor.
@@ -67,14 +79,14 @@ namespace std {
          * @return Manufacture.
          */
         Manufacture myManufacture(char mf);
+        BFSPoint* drive(std::stack<Node*>* myWay);
+        BFSPoint* myLocation();
+        void setMyLocation(BFSPoint *myLoc);
         friend class boost::serialization::access;
         template<class Archive>
         void serialize(Archive &ar, const unsigned int version)
         {
-            ar & id;
-            ar & kilometerPassed;
-            ar & manu;
-            ar & color;
+            ar & boost::serialization::base_object<Cab>(*this);
         }
     };
 

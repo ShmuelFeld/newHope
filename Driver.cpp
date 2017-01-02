@@ -14,7 +14,8 @@ namespace std {
         id = identity;
         age = a;
         exp = e;
-        maritalStatus = myMaritalStatus(ms);
+        marist = ms;
+        maritalStatus = myMaritalStatus(marist);
         cab = NULL;
         vehicleId = vId;
         currentLocation = r;
@@ -29,7 +30,8 @@ namespace std {
         id = identity;
         age = a;
         exp = e;
-        maritalStatus = myMaritalStatus(ms);
+        marist = ms;
+        maritalStatus = myMaritalStatus(marist);
         cab = NULL;
         vehicleId = vId;
         currentLocation = NULL;
@@ -52,7 +54,7 @@ namespace std {
     int Driver::getId() {
         return id;
     }
-    int Driver::gatAge(){
+    int Driver::getAge(){
         return age;
     }
     int Driver::getExp() {
@@ -77,7 +79,11 @@ namespace std {
     BFSPoint* Driver::getLocation() {
         return currentLocation;
     }
+    void Driver::setLocation(BFSPoint *start) {
+        this->currentLocation = start;
+    }
     int Driver::findShortPath(TripInfo* ti) {
+        Bfs b;
         return b.path(currentLocation,ti->getStart())->getHeight();
 
     }
@@ -86,7 +92,7 @@ namespace std {
         switch (type) {
             case 1:
                 //standart cab. progress one point each time.
-                currentLocation = myRoad;
+                currentLocation = (BFSPoint*)myRoad->getNext();
                 pickUp();
                 road();
                 currentLocation = myRoad;
@@ -121,7 +127,8 @@ namespace std {
                 return MaritalStatus::SINGLE;
             case 'M':
                 return MaritalStatus::MARRIED;
-            default:break;
+            default:
+                return MaritalStatus ::DEFAULT;
         }
     }
     int Driver::myVehicleId() {
@@ -129,15 +136,22 @@ namespace std {
     }
     void Driver::road() {
         BFSPoint *road;
+        Bfs b;
         if (haveAPassengers) {
             road = (BFSPoint*)b.path(currentLocation, tripInfo->getEnd());
             tripInfo->setMeter(road->getHeight());
             cab->setKiloPassed(road->getHeight());
+            while (!road->equal(currentLocation)) {
+                road = (BFSPoint*)road->getFather();
+            }
             myRoad = road;
         } else {
             road = (BFSPoint *) b.path(currentLocation, tripInfo->getStart());
             if (! currentLocation->equal(tripInfo->getStart())) {
                 cab->setKiloPassed(road->getHeight());
+            }
+            while (!road->equal(currentLocation)) {
+                road = (BFSPoint*)road->getFather();
             }
             myRoad = road;
         }
@@ -157,6 +171,9 @@ namespace std {
     }
     bool Driver::occupied() {
         return amIOccupied;
+    }
+    char Driver::myMaritst() {
+        return marist;
     }
 
 } /* namespace std */

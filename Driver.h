@@ -18,6 +18,7 @@
  * this enum class is the MaritalStatus of the driver.
  */
 enum class MaritalStatus {
+    DEFAULT = 0,
     SINGLE,
     MARRIED,
     DIVORCED,
@@ -27,10 +28,10 @@ namespace std {
     class Driver {
     private:
         int id, age, exp, clients, vehicleId;
+        char marist;
         MaritalStatus maritalStatus;
         float satisfaction, memo;
         Cab *cab;
-        Bfs b;
         BFSPoint *currentLocation;
         BFSPoint *myRoad;
         TripInfo *tripInfo;
@@ -72,7 +73,7 @@ namespace std {
         /**
          * @return the age of the driver.
          */
-        int gatAge();
+        int getAge();
         /**
          * @return the experience of the driver.
          */
@@ -103,6 +104,11 @@ namespace std {
          * @return the current location of the driver.
          */
         BFSPoint* getLocation();
+        /**
+         * Set location - mainly for startpoint
+         * @param start BFSPoint
+         **/
+        void setLocation(BFSPoint* start);
         /**
          * the taxi center operates bfs from the current location
          * to a new trip start point,
@@ -157,6 +163,26 @@ namespace std {
          * @return the boolean value amIOccupied.
          */
         bool occupied();
+        char myMaritst();
+        friend class boost::serialization::access;
+        template<class Archive>
+        void serialize(Archive &ar, const unsigned int version)
+        {
+            ar & id;
+            ar & age;
+            ar & marist;
+            ar & exp;
+            ar & vehicleId;
+            ar & clients;
+            ar & satisfaction;
+            ar & maritalStatus;
+            ar & cab;
+            ar & currentLocation;
+            ar & haveAPassengers;
+            ar & amIOccupied;
+            ar & myRoad;
+            ar & myPassenger;
+        }
     };
 
 } /* namespace std */

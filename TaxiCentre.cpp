@@ -91,12 +91,15 @@ TripInfo* TaxiCentre::matchRide(int time) {
         for (int l = 0; l < tripinfo.size(); l++) {
             if (d->getLocation()->equal(tripinfo.at
                     ((unsigned long)l)->getStart())) {
-                if (time = tripinfo.at
+                int checktime = tripinfo.at/////////////
+                        ((unsigned long)l)->getTripTime();//////////
+                if (time == tripinfo.at
                         ((unsigned long)l)->getTripTime()) {
                     d->setTripInfo(tripinfo.at((unsigned long) l));
                     d->setOccupied();
                     return tripinfo.at((unsigned long) l);
                 }
+                return NULL;
             }
         }
     }

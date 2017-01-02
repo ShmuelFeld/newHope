@@ -313,6 +313,10 @@ Cab.h
 /home/ran/ClionProjects/newHope2/Cab.h
 TripInfo.h
 /home/ran/ClionProjects/newHope2/TripInfo.h
+boost/serialization/assume_abstract.hpp
+-
+boost/serialization/base_object.hpp
+-
 
 /home/ran/ClionProjects/newHope2/Clock.cpp
 Clock.h
@@ -375,6 +379,8 @@ LuxuryCab.h
 /home/ran/ClionProjects/newHope2/LuxuryCab.h
 Udp.h
 /home/ran/ClionProjects/newHope2/Udp.h
+Clock.h
+/home/ran/ClionProjects/newHope2/Clock.h
 
 /home/ran/ClionProjects/newHope2/GameFlow.h
 TripInfo.h
@@ -471,6 +477,38 @@ StandartCab.h
 /home/ran/ClionProjects/newHope2/StandartCab.h
 Cab.h
 /home/ran/ClionProjects/newHope2/Cab.h
+iostream
+-
+iostream
+-
+fstream
+-
+sstream
+-
+boost/archive/text_oarchive.hpp
+-
+boost/archive/text_iarchive.hpp
+-
+boost/tokenizer.hpp
+-
+boost/algorithm/string/predicate.hpp
+-
+boost/lexical_cast.hpp
+-
+boost/assign/list_of.hpp
+-
+boost/algorithm/string.hpp
+-
+boost/iostreams/device/back_inserter.hpp
+-
+boost/iostreams/stream.hpp
+-
+boost/archive/binary_oarchive.hpp
+-
+boost/archive/binary_iarchive.hpp
+-
+boost/serialization/export.hpp
+-
 
 /home/ran/ClionProjects/newHope2/TaxiCentre.cpp
 TaxiCentre.h

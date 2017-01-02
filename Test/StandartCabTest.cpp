@@ -27,8 +27,8 @@ public:
         p1 = new BFSPoint(0,1);
         p2 = new BFSPoint(3,9);
         p3 = new BFSPoint(8,9);
-        ti = new TripInfo(id1,p1, p2, 2, 20);
-        si = new TripInfo(id1,p1,p3,2, 40);
+        ti = new TripInfo(id1,p1, p2, 2, 20, 0);
+        si = new TripInfo(id1,p1,p3,2, 40, 0);
     }
     ~StandartCabTest() {
         delete si,ti, p1 ,p2, p3;

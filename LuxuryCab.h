@@ -8,15 +8,12 @@
 #ifndef LUXURYCAB_H_
 #define LUXURYCAB_H_
 #include "StandartCab.h"
+
 namespace std {
 
-    class LuxuryCab: Cab {
+    class LuxuryCab: public Cab {
     private:
         StandartCab* sc;
-        int id;
-        long kilometerPassed;
-        Manufacture manu;
-        Color color;
     public:
         /**
          * constructor.
@@ -56,14 +53,13 @@ namespace std {
          * @return the price for trip.
          */
         int getID();
+        BFSPoint* drive(std::stack<Node*>* myWay);
+        BFSPoint* myLocation();
+        void setMyLocation(BFSPoint *myLoc);
         friend class boost::serialization::access;
         template<class Archive>
         void serialize(Archive &ar, const unsigned int version)
         {
-            ar & id;
-            ar & kilometerPassed;
-            ar & manu;
-            ar & color;
             ar & sc;
         }
     };

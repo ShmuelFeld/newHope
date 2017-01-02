@@ -14,4 +14,3 @@
     int Clock::getVlue() {
         return counter;
     }
-}
